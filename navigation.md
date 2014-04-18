@@ -4,8 +4,23 @@
 
 [TechNote]()
 
-  * [테크노트계획](technote.md)
+  * #테크노트기획
+  * [목차](technote.md)
+  ----------
+  * [markdown](markdown.md)
+  * [intellj tip](intellij.md)
+  * [git](git.md)
+  * [Mean Stack](meanstack.md)
+  * [hosting](hosting.md)
+  ------------
   * [Quickstart](quickstart.md)
+
+
+[Lab]()
+
+  * [connectionTimeOut](connectionTimeOut.md)
+  * [mysqlReplicationDriver](mysqlReplicationDriver.md)
+
 
 [gimmick:theme (inverse: false)](yeti)
 

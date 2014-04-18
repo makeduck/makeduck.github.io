@@ -33,7 +33,7 @@ Features
 
 [makeduck]: http://makeduck.com
 
-bb
+comment
 --------
 
 [gimmick:Disqus](makeduck)
