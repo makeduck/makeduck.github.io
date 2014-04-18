@@ -12,6 +12,7 @@
   * [git](git.md)
   * [Mean Stack](meanstack.md)
   * [hosting](hosting.md)
+  * [generator](generator.md)
   ------------
   * [Quickstart](quickstart.md)
 
