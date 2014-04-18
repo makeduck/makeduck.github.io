@@ -4,7 +4,7 @@
 
 [TechNote]()
 
-  * 테크노트계획(technote.md)
+  * [테크노트계획](technote.md)
   * [Quickstart](quickstart.md)
   * [Layout](layout.md)
   * [FAQ](faq.md)
