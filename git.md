@@ -5,6 +5,6 @@ GIT
 참고
 ---------
 
-- git 동영상 유투브
-- 사이트 하나
-- 사이트 둘
+- [git강의](https://www.youtube.com/watch?v=qKoUeXymsgk)
+- [git자료](https://github.com/kenu/ssag-git)
+
