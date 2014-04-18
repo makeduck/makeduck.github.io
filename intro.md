@@ -1,42 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
 
 
-# 테크 노트 활용방안
-테크노트를 어디에다가 쓸것인다. 어떻게 누출시킬것인가
-기술 노트 어떻게 쓸까요...
-서비스 간략화 어디까지 알아 봤니...
-테크 노트 엄청 많은데 재사용하면 안되나??
-
-꽁git은 어디. 그냥 페이지로 쓸 수 있는 방안은?
-
-테크 노트를 잘쓰자
-
-http://24ways.org/2013/get-started-with-github-pages/
+<br>
+<br>
+<br>
+<br>
 
 
-read time out최적화는?
+이걸로 누가 작업즘 해주시요.
+http://www.layoutit.com/
 
-mysql replication 괜찮은가?
-
-## generator
-
-## velocity & intellij
-
-## bind query log 의 최적화
-
-## git
-- git 자료모음
-- 저장소 종류
-- client 브랜치 머지
-
-## jira
-- jira.spring.io
-- 스프링 너네는 어떻게 쓰누.
-
-## measn statck , camel
-- 복합프레이웍
-
-## apm
-- 성능특정 방안 glider
-- 가벼운 플랫폼 얼마나 쓸만한가.
-
-## tech 노트 공유 방안
+<br>
+<br>
+<br>개덕.[開德]
+<br>1. 소셜 개발 집단
+<br>2. 개발로 덕을 쌓다
+<br>
+<br>개발자 덕후 모임(X)
+<br>개떡 같은 프로그램 만드는 곳(X)
+<br>
+<br>- 프로토타입이 필요한 그룹에게 개발 지원
+<br>- 누구든 제안서를 낼 수 있다.
+<br>- 빠르게 구현/실체화를 목적으로 한다.
+<br>- 개발 방법은 수단과 방법을 가리지 않는다.
+<br>- 코드는 오픈한다 https://github.com/makeduck
+<br>- off 모임은 커뮤니티 행사, 컨퍼런스를 빌어서 한다.
+<br>
+<br>tag
+<br>공공, 사회 공헌, 프로토타입. 해커톤 단기 개발.
+<br>
+<br>
+<br>http://www.makeduck.com
+<br>
+<br>"오늘은 개발하기 좋은날"
+<br>
+<br>
+</body>
+</html>
