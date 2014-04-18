@@ -3,8 +3,7 @@ mysqlReplicationDriver
 
 개요
 ------------
-mysql ReplicationDriver 사용. master/slave 사용의 경우 master 장애시 connection 문제가 발생한다는데
-실험을 통하여 알아본다.
+mysql ReplicationDriver 사용. master/slave 사용의 경우 master 장애시 connection 문제가 발생한다는데 실험을 통하여 알아본다.
 
 방법
 ------------------

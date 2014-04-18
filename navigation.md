@@ -1,4 +1,4 @@
-# MAKEDUCK
+# makeduck
 
 [About](index.md)
 
