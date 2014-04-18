@@ -26,13 +26,7 @@ Features
 	
     "오늘은 개발하기 좋은날"
     
-Features
---------
 
-
-Features
---------
-    
 [makeduck.com][makeduck]
 
 [main][makeduck]
