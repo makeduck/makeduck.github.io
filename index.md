@@ -1,27 +1,3 @@
-About
-=====
-
-MDwiki is a CMS/Wiki __completely built in HTML5/Javacript and runs 100% on the client__. No special software installation or server side processing is required. Just upload the `mdwiki.html` shipped with MDwiki into the same directory as your markdown files and you are good to go!
-
-Note: The website you are currently viewing is realized with MDwiki and hosted on [GitHub pages](http://pages.github.com/). [http://mdwiki.info](http://mdwiki.info) redirects here.
-
-Features
---------
-
-  * Built completely in Javascript/HTML5 and __does not require any local or remote installations__
-  * Uses [Markdown][markdown] as its input markup language
-  * Build on top of [jQuery][jQuery] and [Bootstrap3][bootstrap] to work cross-browser, with responsive layout
-  * Extends Markdown with special [_Gimmicks_][gimmicks] that add rich client functions, like syntax highligting via [hightlight.js][highlightjs], [GitHub Gists][gists], or [Google Maps][maps] for geo data
-  * Themeable through Bootstrap compatibility, supports all themes from [bootswatch](http://www.bootswatch.com)
-
-Requirements
-------------
-
-  * Built completely in Javascript/HTML5 and __does not require any local or remote installations__
-  * Built completely in Javascript/HTML5 and __does not require any local or remote installations__
-
-
-
 
 About
 =====
@@ -42,7 +18,7 @@ __개덕.[開德]__
 - 코드는 오픈한다 https://github.com/makeduck
 - off 모임은 커뮤니티 행사, 컨퍼런스를 빌어서 한다.
 
-feture
+Features
 --------
 
 	공공, 사회 공헌, 프로토타입. 해커톤 단기 개발.
@@ -50,7 +26,12 @@ feture
 	
     "오늘은 개발하기 좋은날"
     
-    
+Features
+--------
+
+
+Features
+--------
     
 [makeduck.com][makeduck]
 
