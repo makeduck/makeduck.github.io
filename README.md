@@ -6,3 +6,5 @@ makeduck.github.io
 
 
 http://makeduck.github.io
+
+http://www.example.com/mdwiki.html#!myfile.md
