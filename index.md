@@ -1,4 +1,3 @@
-
 About
 =====
 
@@ -21,17 +20,18 @@ __개덕.[開德]__
 Features
 --------
 
-	공공, 사회 공헌, 프로토타입. 해커톤 단기 개발.
-	http://www.makeduck.com
-	
+    공공, 사회 공헌, 프로토타입. 해커톤 단기 개발.
+
     "오늘은 개발하기 좋은날"
     
 
 [makeduck.com][makeduck]
 
-[main][makeduck]
+[facebook][facebook]
 
 [makeduck]: http://makeduck.com
+
+[facebook]: https://www.facebook.com/groups/makeduck
 
 comment
 --------
