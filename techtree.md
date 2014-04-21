@@ -9,7 +9,7 @@ fork
 pull request
 
 ## java 
-## 방법
+### 방법
 jdk 설치
 ### 목표 
 콘솔에서 hellow world 출력
