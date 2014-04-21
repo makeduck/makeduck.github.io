@@ -14,6 +14,7 @@
   * [hosting](hosting.md)
   * [generator](generator.md)
   ------------
+  * [techTree](techtree.md)
   * [Quickstart](quickstart.md)
 
 
