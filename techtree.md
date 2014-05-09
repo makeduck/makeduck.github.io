@@ -47,3 +47,8 @@ jira 할당 해당 문제를 수정하여 코드 커밋 후 main repository 반�
 ### 목표
 오픈에 main repostory에 주석 및 코드를 넣는다. 
 
+## APM
+### gringer
+
+
+

@@ -3,8 +3,20 @@ MeanStack
 
 개요
 ---------
-script 로 서비스 구성. db + mvc + server + client. 몽땅 script
+script 로 서비스 구성. db + mvc + server + client. 몽땅 script  A Fullstack Javascript Framework
 [demo site](http://107.170.206.116/#!/articles)
+
+mongo db
+------------
+
+express
+------------
+
+angularJS
+--------------
+
+nodeJS
+-------------
 
 참고
 ----------
