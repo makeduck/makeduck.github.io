@@ -13,8 +13,9 @@ remote debuging
 ------------------
 ### remote 서버설정
 원격서버는 debug 설정 적용되어 운영 되고 있어야함
+```
     -Xdebug -Xrunjdwp:transport=dt_socket,address=8000,server=y,suspend=n
-
+```
 ### intellij설정
 서버에서 remote server 선택.
 server tab 은 무난하게 변경 www.주소.com  포트 80
