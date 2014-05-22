@@ -40,6 +40,15 @@ mysql replication 괜찮은가?
 ## measn statck , camel
 - 복합프레이웍
 
+## 많이 보이는 utils
+apache common io httpclient
+getMethod , poseMethod
+guava-libraries
+
+## json,xml <- > object
+gson
+
+
 ## apm
 - 성능특정 방안 glider
 - 가벼운 플랫폼 얼마나 쓸만한가.
