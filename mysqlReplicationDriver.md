@@ -127,4 +127,4 @@ autoReconnect=true 설정시 서버down 으로 connection fail 발생시 서비�
 - [취약점리포트](http://gywn.net/2012/07/mysql-replication-driver-error-report/)
 
 ![velocity suggest](img/deplicationSleep.jpg)
-![velocity suggest](img/deplicationSleepCode.jpg.jpg)
+![velocity suggest](img/deplicationSleepCode.jpg)
