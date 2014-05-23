@@ -122,7 +122,9 @@ at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
 결론.
 autoReconnect=true 설정시 서버down 으로 connection fail 발생시 서비스의 행업 발생이 가능하다.
 
-
 참고
 ------
 - [취약점리포트](http://gywn.net/2012/07/mysql-replication-driver-error-report/)
+
+![velocity suggest](img/deplicationSleep.jpg)
+![velocity suggest](img/deplicationSleepCode.jpg.jpg)
