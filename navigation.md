@@ -13,7 +13,7 @@
   * [Mean Stack](meanstack.md)
   * [hosting](hosting.md)
   * [generator](generator.md)
-  * [node](node.md)
+  * [nodejs](nodejs.md)
   * [python](python.md)
   ------------
   * [techTree](techtree.md)
@@ -33,7 +33,7 @@
 
 [book]()
 
-  * book(book.md)
+  * [book](book.md)
   * [2013](book2013.md)
   * [2014](book2014.md)
 
