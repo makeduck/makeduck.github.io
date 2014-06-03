@@ -33,10 +33,7 @@
 
 [book]()
 
-  [mong]()
-
   * book(book.md)
-
   * [2013](book2013.md)
   * [2014](book2014.md)
 
