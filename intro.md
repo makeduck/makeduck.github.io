@@ -24,15 +24,12 @@ http://www.layoutit.com/
 <br>개발자 덕후 모임(X)
 <br>개떡 같은 프로그램 만드는 곳(X)
 <br>
-<br>- 프로토타입이 필요한 그룹에게 개발 지원
-<br>- 누구든 제안서를 낼 수 있다.
 <br>- 빠르게 구현/실체화를 목적으로 한다.
 <br>- 개발 방법은 수단과 방법을 가리지 않는다.
-<br>- 코드는 오픈한다 https://github.com/makeduck
 <br>- off 모임은 커뮤니티 행사, 컨퍼런스를 빌어서 한다.
 <br>
 <br>tag
-<br>공공, 사회 공헌, 프로토타입. 해커톤 단기 개발.
+<br>프로토타입. 해커톤 단기 개발 지향
 <br>
 <br>
 <br>http://www.makeduck.com
