@@ -27,7 +27,8 @@ Summary
 
 python notebook
 -----------------
-http://nbviewer.ipython.org/github/ipython/ipython/blob/2.x/examples/Index.ipynb
+- [my python notebook](http://nbviewer.ipython.org/github/makeduck/makeduck.github.io/blob/master/python)
+- [notebook dubu ](http://nbviewer.ipython.org/github/makeduck/makeduck.github.io/blob/master/python/dubu.ipynb)
 
 [토플모] 파이썬을 이용한 Bioinformatics 기초](python_study.md)
 
