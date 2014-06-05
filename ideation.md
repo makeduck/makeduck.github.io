@@ -16,7 +16,7 @@
 - 방금 그 곡 사용  [다음방금그곡]( http://m.music.daum.net/onair/timeline)
 - api 있으면 좋고 없으면, update call parsing http://m.music.daum.net/onair/timeline
 - POST http://m.music.daum.net/onair/songlist.json?type=top&searchChannelType=popular&startTime=20140605100621&channelIds= HTTP/1.1
-- [response json](onair.md)
+- [response json](onair.txt)
 
 ###
  설명
