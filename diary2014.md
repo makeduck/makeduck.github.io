@@ -4,6 +4,15 @@
 
 
 
+20140604
+d3 js
+
+20140603
+ipython notebook ,wakari
+
+20140531
+spring camp 2014
+
 20140529
 메모장 스프링노트 블로그 티스토리 에버노트 그리고 github.io
 에버노트가 손에 붙지를 않네.. md 로..
