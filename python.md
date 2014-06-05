@@ -25,6 +25,10 @@ Summary
 - [ipython notebook viewer] (http://nbviewer.ipython.org/)
 - [python notebook 계정] (https://www.wakari.io)
 
+python notebook
+-----------------
+http://nbviewer.ipython.org/github/ipython/ipython/blob/2.x/examples/Index.ipynb
+
 [토플모] 파이썬을 이용한 Bioinformatics 기초](python_study.md)
 
 
