@@ -5,9 +5,9 @@ python
 
 사전자료
 --------------
-- python 2.7 , pip , vituralenv
+- 파이썬 기본 환경 구성. python 2.7 , pip , vituralenv
 - 내가파이썬을 선택한 이유 ()[https://github.com/ethdemor/springcamp2014]
-- 관련 자료 내가 파이썬을 선택한 이유 spring camp  - django ?
+- 관련 자료 내가 파이썬을 선택한 이유 spring camp  - django
 
 
 Setting
