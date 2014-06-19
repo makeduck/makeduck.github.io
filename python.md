@@ -24,6 +24,7 @@ Summary
 - 외에 setting 생략.
 - [ipython notebook viewer](http://nbviewer.ipython.org/)
 - [python notebook 계정](https://www.wakari.io)
+- 먼지 모르는 파이썬 샘플 http://nbviewer.ipython.org/github/ipython/ipython/blob/2.x/examples/Interactive%20Widgets/Lorenz%20Differential%20Equations.ipynb
 
 python notebook
 -----------------
@@ -31,5 +32,6 @@ python notebook
 - [notebook dubu ](http://nbviewer.ipython.org/github/makeduck/makeduck.github.io/blob/master/python/dubu.ipynb)
 
 [토플모] 파이썬을 이용한 Bioinformatics 기초](python_study.md)
+[바이오 파이썬 노트](python_study_note.md)
 
 
