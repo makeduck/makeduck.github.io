@@ -111,14 +111,14 @@ CASE4
 - autoReconnect=true , maxWait=2(milliSecond)
 - conn.setReadOnly(false) // master 연결
 결과
-'''
+```
 3 times reconnect 시도로 행업 6초 이후 ConnectionException 발생
 com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
 at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
-'''
+```
 결론.
 autoReconnect=true 설정시 서버down 으로 connection fail 발생시 서비스의 행업 발생이 가능하다.
 
