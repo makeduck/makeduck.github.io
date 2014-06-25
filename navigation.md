@@ -16,6 +16,7 @@
   * [nodejs](nodejs.md)
   * [python](python.md)
   * [grinder](grinder.md)
+  * [redis](redis.md)
   ------------
   * [techTree](techtree.md)
   * [Quickstart](quickstart.md)
