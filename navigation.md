@@ -20,6 +20,7 @@
   * [mysql](mysql.md)
   * [redis](redis.md)
   * [maven](maven.md)
+  * [regexr](regexr.md)
   ------------
   * [techTree](techtree.md)
   * [Quickstart](quickstart.md)
