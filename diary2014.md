@@ -1,6 +1,19 @@
 
+
+
+20140629
+oss
+![oss](https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xap1/t1.0-9/q71/s720x720/10447748_711588965570106_8843710036375584059_n.jpg)
+
+20140627
+인그레이빙 공차버블티 gcc
+
+![engraving](img/engraving.jpg)
+![engraving](https://www.flickr.com/photos/110452742@N02/12308353045)
+
+
 20140626
-목요일은 팀회식이지. 유럽필하게 야외에서 주전자 막걸리
+유럽필하게 야외에서 주전자 막걸리
 
 20140618
 때한민국 2014 월드컵 러시아-한국
