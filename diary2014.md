@@ -9,7 +9,7 @@ oss
 인그레이빙 공차버블티 gcc
 
 ![engraving](img/engraving.jpg)
-![engraving](https://www.flickr.com/photos/110452742@N02/12308353045)
+![공차버블티](https://farm3.staticflickr.com/2875/12308353045_7a7fa0fdb2.jpg)
 
 
 20140626
