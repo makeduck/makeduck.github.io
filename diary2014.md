@@ -4,13 +4,12 @@
 20140629
 oss
 
-![oss](https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xap1/t1.0-9/q71/s720x720/10447748_711588965570106_8843710036375584059_n.jpg =250x)
+<img src="https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xap1/t1.0-9/q71/s720x720/10447748_711588965570106_8843710036375584059_n.jpg" alt="Drawing" style="width: 200px;"/>
 
 20140627
 인그레이빙 공차버블티 gcc
 
-![engraving](img/engraving.jpg =100x20)
-![공차버블티](https://farm3.staticflickr.com/2875/12308353045_7a7fa0fdb2.jpg)
+![engraving](img/engraving.jpg)
 <img src="https://farm3.staticflickr.com/2875/12308353045_7a7fa0fdb2.jpg" alt="Drawing" style="width: 200px;"/>
 
 
