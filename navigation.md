@@ -43,6 +43,8 @@
   * [book](book.md)
   * [2014](book2014.md)
 
+[seminar](seminar.md)
+
 [diary]()
 
   * [2014](diary2014.md)
