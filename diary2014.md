@@ -1,5 +1,9 @@
 
 
+20140707
+만년필. LAMY
+
+![lamy](img/lamy.jpg)
 
 20140629
 oss
