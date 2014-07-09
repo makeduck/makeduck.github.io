@@ -21,6 +21,7 @@
   * [redis](redis.md)
   * [maven](maven.md)
   * [regexr](regexr.md)
+  * [linux](linux.md)
   ------------
   * [techTree](techtree.md)
   * [Quickstart](quickstart.md)
