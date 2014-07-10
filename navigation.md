@@ -16,6 +16,7 @@
   * [nodejs](nodejs.md)
   * [python](python.md)
   * [grinder](grinder.md)
+  * [jQuery](jQuery.md)
   * [oracle](oracle.md)
   * [mysql](mysql.md)
   * [redis](redis.md)
