@@ -752,10 +752,8 @@ time 연속성상에서 가로 횡적파악
 프레임윅을 두고 맞추서 생각해보자
 
 정규화 elaboration coherence
-----------------------------
 | |
 steading intergrating
------------------- -------------------
 | | | |
 auto자동화 constract seratagic abstract
 
