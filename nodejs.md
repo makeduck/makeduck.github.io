@@ -1,4 +1,53 @@
-### 노드 node.js
+
+
+### 노드02 node.js 2014-06-18
+노트 2일차
+
+
+기계컴파일 jit 컴파일.??
+v8 메모리릭 있긴 있다고 함..
+
+IoE 에도 쓰나?
+
+node.js
+생산성?  좋다
+항상 빠르진 않다.
+싱글 쓰레드로 돈다.
+자주 죽는다고 함... ? 에러처리 안하면 진짜 노드가 죽음.
+리소스도 많이 슨다. 코어 4개면 2개. 코어당 1개는 노드 하나는 무리인듯.
+
+노드 죽으면 다시 띄우는 모듈도 있네..
+
+사용하는곳.
+linkedin
+paypal
+
+ node runner  무중단 배포, 모니터링
+ 호스팅. haroku?
+
+로그 winston??
+
+디버깅  intellj 디버그 쓰시요.
+
+테스트
+validation jsLint ? jsHint
+
+unit test  mocha 라고 있었음
+
+테스트 자동화  Driver, Headless
+
+부하테스트 Noadload
+
+배포 9rum
+
+Grunt ?
+
+노드 모니터링.
+
+모듈 밑에서 설치할것..
+npm install -save winston
+
+### 노드01 node.js
 
 구글 v8 ??  코드컴파일로 한다.  스크립트를 빠르게.. script로도 쓸만하다.
 common.js  ? 크롬 스크립트 에서쓰던거??
