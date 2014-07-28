@@ -1,4 +1,75 @@
 
+
+
+- 했던거 또 하는거 싫어 한다. 중복 금지
+- 최대한 짧게
+
+들어가기에 앞서 사전 넉두리
+cvs,svn,git,mercurial,tfs
+개발자 코드관리 목적
+
+공지 드립니다.
+1. git-scm 설치(http://git-scm.com/downloads)를 부탁드립니다.
+2. github 계정 생성
+
+This is a private repository
+https://bitbucket.org/
+
+실습프로젝트
+https://github.com/biopy/biopy.github.io.git
+http://biopy.github.com
+http://nbviewer.ipython.org/github/biopy/biopy.github.io/tree/master/notebook/
+
+github web 에서 사용
+https://github.com
+새로 파일 만드는 법은 파일명
+폴더는 /폴더명/파일명
+
+폴더 지정. 기왕이면 pythonnotebook 근처로.
+
+주요명령어.
+git clone https://github.com/biopy/biopy.github.io.git
+git pull
+git add 파일이름
+git commit -m "first commit"
+git push -u origin master
+git reset --hard origin/master
+
+초급
+로컬에 clone 생성.
+ipython 노트북 로컬 실행
+tip
+
+중급
+file 추가&수정. 원격서버 반영
+tool setting utf-8 설정
+client tool 소개. history 보는법
+그림으로 보는 git(commit , pull , push)
+http://onlywei.github.io/explain-git-with-d3/#
+
+한글은 utf-8 로 저장해 주세요.
+
+히스토리 보는법..
+github & gitk 로 보는법.
+
+고급
+협업 repository 구축
+
+1차 마무리& 2차의 시작.
+널리 쓰여 졌으면 좋겠다.
+- 나만의 저장소를 하나 만들고,
+- 1차에서 했던 문서 자료들을 하나로 모으다.
+
+구체적인 문법은 생략. 대신 문서와 좋은 자료 링크를 드리겠음.
+
+필요한것만 드리겠어요.
+check out
+history 돌리기..
+pull
+commit & push
+- brach, merge, 생략.
+- client tool 좋은거 많다.  요거는 실습.
+
 - 들어가기에 앞서 서론.
 왜 git-hub
 소스들이 모인다. 파이썬 코드 포함. 오픈 코드 저장소.
@@ -8,18 +79,9 @@ trello
 jira
 오픈 소스
 
-개발쪽에서 먼저 쓰는 방법론.
-뽑아갈께 있을 것이다.
-보고 가져가시믄 된다.
-왜 했다. 소스 코드 관리..
-
-버젼과 함께 코딩
-
-가경/세진 실사례 중심으로
-쉘명령어 가장 강력하다.
-
 템플릿도 만들어야 하겠다.
 
+사전 넉두리
 세상에 공짜가 없고, 좋은 내용을 꽁을 들은 터라
 밥값을 제공차 쾌히 수락.
 되게 쉬운내용. 좀 어렵다 생각하면 패스, 바로 실사례
@@ -81,7 +143,6 @@ mark down mc 문법을 눈에 익혀두시면 좋고.
 있는거부터 만들 수 도 있다.
 만들고 시작 할 수 도 있고.
 
-
 =============
 이하 이전에 쓰던거
 
@@ -95,7 +156,7 @@ mark down mc 문법을 눈에 익혀두시면 좋고.
 기록 문서의 역사
 
 메모장 - 블로그 - 스프링 노트 -위키- 구글docs -에버노트
-페북에 문서 공유?
+페북에 문서 공유? 구글 드라이브...
 
 하기 싫은거 두가지..
 중복 방지- 같은 문서의 여러개 존재..?!?!?!?
@@ -105,12 +166,8 @@ mark down mc 문법을 눈에 익혀두시면 좋고.
 . 을 찍으며 나와야디야.
 function 따라가기.
 
-구글 드라이브...
-
-
 다 까먹을텐데. 다시 안쓰면 어쩌지..  대상 타겟은... ??
 쓸모있는 것을 남기는게 목적.
-
 
 shell
 tool base 툴이 좋구나. 툴설치 하는김에
@@ -164,19 +221,12 @@ $x^2$ or $$$x^2$$$
 
 레파지 토리 정리 필요해 보인다ㅣ.
 
-
-
-
-
 실제 쓰는것은 프로그램으로 하자.
-
-
 
 - 스터디만 하면 재미없다.
 일을 통해서 살펴보자.
 내가 하는 일은.. .. 인데..
 어떻게 쓰고 있느냐.
-
 
 왜 쓰나.
 하나 파일을 여러명이서 작성 할때 google. doc?
@@ -189,7 +239,6 @@ $x^2$ or $$$x^2$$$
 콘솔 명령어 중심으로..
 명령어 딱 4개만 외우서 씁시다.
 
-
 --------
 
 결국 할 수 있는 것은 문서 관리.  어디서든 접근 .
@@ -199,16 +248,25 @@ $x^2$ or $$$x^2$$$
 
 블로그를 만들어보자 md. 블로그
 
-
 그 다름은 개발 구경.. haroo 패드  다 못외우니까..  제일 쉬운거 위주로.
-
 
 소감 언어는 도구에 불과 하구나.  장점 기술이 되지 않는다. 필요하면 그냥 쓰시면 됩니다.
 파이썬은 배우기 않고도 쓸 수 있을만큼 직관적인..
 
-
 주위에 잘 하는 사람이 근처에 있던가
 비슷한 코드가 많아야.
 자원이 널려 있어야 좋다.
+
+시간이 남는다면
+마크다운
+하루패드 ㅡ
+
+정규식
+http://www.regexr.com/
+
+Q/A 받겠습니다.
+제가 준비했습니다.
+프로그램 얼마인가요?
+현상관리 버젼관리 진짜 쓰느냐.
 
 
