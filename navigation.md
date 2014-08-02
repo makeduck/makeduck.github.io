@@ -24,6 +24,7 @@
   * [regexr](regexr.md)
   * [linux](linux.md)
   * [raspberry](raspberry.md)
+  * [인공지능](humanExperience.md)
   ------------
   * [techTree](techtree.md)
   * [Quickstart](quickstart.md)
