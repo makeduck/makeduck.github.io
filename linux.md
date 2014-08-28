@@ -10,6 +10,8 @@ visual vm 에서 봐도 좋고
 
 케이스별로 코드 만들어서 덤프를 만들어봄직 하다.
 
+### vi
+- :%s/찾아서/바꿔라/g
 
 ### 참고
 http://helloworld.naver.com/helloworld/10963
