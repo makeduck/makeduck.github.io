@@ -45,6 +45,9 @@ group=CCMP TKIP
 psk="WIFI-PASSW
 
 
+### 랜케이블로 라즈베리파이 접속
+cmdline.txt  rootwait 다음에 ip=192.168.0.XXX
+
 ### 라즈베리 파이 설치
 
 os 다운로드. 종류 다향 raspbian 를 받자
