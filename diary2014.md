@@ -1,3 +1,5 @@
+140815
+python 데이터 다루기에 좋은듯함. [증시데이터분석](http://nbviewer.ipython.org/urls/dl.dropboxusercontent.com/u/177075/Finance%20Data%20PyCon%202014/00%20-%20Finance%20Data%20in%20Python.ipynb)
 
 140905
 [octopress](http://dubu.github.io) 좋아보이긴하나 손이 많이가는거 같아서 안쓰기로함
