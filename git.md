@@ -1,6 +1,35 @@
 GIT
 ====
 
+## remote 여러개 예제
+
+D:\workspace_intellij\biopy.github.io>git remote add biospin https://github.com/biospin/biopy.git
+
+D:\workspace_intellij\biopy.github.io>git fetch biospin
+warning: no common commits
+remote: Counting objects: 23, done.
+remote: Compressing objects: 100% (16/16), done.
+remote: Total 23 (delta 0), reused 0 (delta 0)
+Unpacking objects: 100% (23/23), done.
+From https://github.com/biospin/biopy
+ * [new branch]      gh-pages   -> biospin/gh-pages
+ * [new branch]      master     -> biospin/master
+
+D:\workspace_intellij\biopy.github.io>git remote
+biospin
+origin
+
+D:\workspace_intellij\biopy.github.io>git checkout -b master_biospin biospin/master
+
+D:\workspace_intellij\biopy.github.io>git log --decorate
+
+D:\workspace_intellij\biopy.github.io>git merge master
+
+git status
+
+D:\workspace_intellij\biopy.github.io>git mergetool
+
+D:\workspace_intellij\biopy.github.io>git push biospin master_biospin:master
 
 참고
 ---------
