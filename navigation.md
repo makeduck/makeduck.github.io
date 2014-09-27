@@ -53,6 +53,7 @@
 [diary]()
 
   * [2014](diary2014.md)
+  * [music](music.md)
 
 
 [gimmick:theme (inverse: false)](yeti)
