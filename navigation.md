@@ -8,29 +8,8 @@
   * [목차](technote.md)
   * [맵](techmap.md)
   ----------
-  * [apache](tech/apache.md)
-  * [markdown](tech/markdown.md)
-  * [generator](tech/generator.md)
-  * [git](tech/git.md)
-  * [grinder](tech/grinder.md)
-  * [hosting](tech/hosting.md)
-  * [intellj tip](tech/intellij.md)
-  * [jQuery](tech/jQuery.md)
-  * [linux](tech/linux.md)
-  * [Mean Stack](tech/meanstack.md)
-  * [mysql](tech/mysql.md)
-  * [maven](tech/maven.md)
-  * [nodejs](tech/nodejs.md)
-  * [oracle](tech/oracle.md)
-  * [python](tech/python.md)
-  * [redis](tech/redis.md)
-  * [regexr](tech/regexr.md)
-  * [raspberry](tech/raspberry.md)
-  * [인공지능](tech/humanExperience.md)
-  ------------
   * [techTree](techtree.md)
   * [Quickstart](quickstart.md)
-
 
 [Lab]()
 
