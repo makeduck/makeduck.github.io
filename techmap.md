@@ -19,4 +19,4 @@
   * [raspberry](tech/raspberry.md)
   * [인공지능](tech/humanExperience.md)
   * [django](tech/django.md)
-  * [scrap](tech/scraper.md)
+  * [scrap](tech/scrap.md)
