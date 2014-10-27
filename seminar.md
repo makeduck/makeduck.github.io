@@ -1,6 +1,68 @@
 
 
 
+20141023
+올챙이코드 살펴보기  - 조현종외 20141023
+-------------------
+
+진행순서
+- 올챙이 사용방법 데모(한금이님)
+- 개발자 기초영문법 - 감잡기 (김나솔님)
+- Transfex.com을 이용한 로컬라이제이션 방법 (BJ Jang님)
+- 현종이 코드 고치다가 가랭이 찢어진 얘기 (정재홍님)
+- 올챙이 확장으로 살펴보는 이클립스 확장 메커니즘(조현종)
+- 올챙이 OpenID 지원 방안(디벨로님)
+
+google otp ??
+
+tadpoledb.com
+
+cron 모양 만들기.
+cronmaker.com
+
+
+begin transaction???
+
+ibatis주기..
+웹 session 주기..
+
+
+sql shell 자체에서 관리하지 안하.
+하나만 잘하지 않는가.
+
+
+모델링 툴은? 스타트업 모델링 툴은?
+기본 프레임웍 설계는
+엡은 어디다가 올릴꼬. 웹앤진. lucy사이트 뭐 있었는데..
+사이트 만들어서 웹앤진 위에 올리기.
+
+
+개발자 영어 코드로 감잡다??
+
+
+다국어 영어기준으로..
+gis 개발자?
+국제영어 . 올챙이영어.
+rap?
+Transifex.com 이용.
+https://github.com/hangum/TadpoleForDBTools/blob/master/tadpole.maintenance/TransifexL10N/transifex.py
+
+
+확장 인터페이스
+https://github.com/hangum/TadpoleForDBTools/blob/master/com.hangum.tadpole.rdb.core/src/com/hangum/tadpole/rdb/core/extensionpoint/maineditor/IMainEditorExtension.java
+
+
+구현체
+https://github.com/hangum/TadpoleForDBTools/blob/master/com.hangum.tadpole.rdb.core/src/com/hangum/tadpole/rdb/core/editors/main/MainEditor.java
+
+삽질기
+http://www.xmind.net/
+csv import
+
+db 모니터링 유료화 모델있음
+
+
+
 20141006
 쫄창 3회
 비지니스 모델 - 이택경141006
