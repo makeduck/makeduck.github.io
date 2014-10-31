@@ -1,3 +1,4 @@
+
 ### 라즈베리 파이 네트워크
 
 --------------------
@@ -49,7 +50,7 @@ psk="WIFI-PASSW
 cmdline.txt  rootwait 다음에 ip=192.168.0.XXX
 
 ### 라즈베리 파이 설치
-
+sudo raspi-config
 os 다운로드. 종류 다향 raspbian 를 받자
 - http://www.raspberrypi.org/downloads/
 raspbian zip download
@@ -63,7 +64,7 @@ raspbian zip download
 
 이하 무선랜 설정은 아래가 진리임.
 sudo nano /etc/network/interfaces
-
+'''
 auto lo
 
 iface lo inet loopback
@@ -75,6 +76,9 @@ auto wlan0
 iface wlan0 inet dhcp
 wpa-ssid "ssid"
 wpa-psk "password"
+'''
+### 배선그리기
+http://fritzing.org/download
 
 웹캠설치
 sudo apt-get install motion
