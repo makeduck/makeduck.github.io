@@ -19,4 +19,5 @@
   * [raspberry](tech/raspberry.md)
   * [인공지능](tech/humanExperience.md)
   * [django](tech/django.md)
-  * [scrap](tech/scrap.md)
+  * [scraper](tech/scraper.md)
+  * [arduino](tech/arduino.md)
