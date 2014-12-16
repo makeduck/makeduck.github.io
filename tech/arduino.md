@@ -1,6 +1,36 @@
 
 아두이노
 
+- 201412 bend 만들기 과천과학관 문한상상실
+아두이노 막날.
+충전기만 8000원 일체형. 비싸다.
+아두이노 프로미니..
+3.3v 업로드
+중국산 드론 10만
+fdi 브레이크 보드 cndwjsdyd.
+아두이노pio
+아두이노 나노 별로.. 윈도우 이외에서 문제인듯. 32u4 써야한다고 함.
+아두이노 마이크로가 좋음 32u4 사용
+아두이노 사이트 참조.
+모델링은 123d  , 오토데스크 홈페이지
+보통은 큐라를 많이 쓴다고함.
+tact 스위치?
+저항 같이 써야.
+어디서 사나?
+아트로봇, 알리익스프레스
+음향 15000원
+led 300원
+알리? afro.com?
+프리에 변환??
+사운드센서
+http://flit.kr/bangled-sound-sensor-control/
+example > analaylog > analoginput
+1 이하에서 정상..
+요거 코드..
+https://learn.adafruit.com/gemma-powered-neopixel-led-sound-reactive-drums/circuit-diagram
+
+
+
 -2014 11월30일
 
 aduino.cc.

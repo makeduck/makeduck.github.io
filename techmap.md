@@ -21,3 +21,4 @@
   * [django](tech/django.md)
   * [scraper](tech/scraper.md)
   * [arduino](tech/arduino.md)
+  * [metal](tech/metal.md)
