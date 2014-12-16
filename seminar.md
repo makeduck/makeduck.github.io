@@ -1,5 +1,166 @@
 
 
+ngs2 실습 - 노규형  20141206
+-------------------------------
+https://genome-cloud.com/user/jsp/gportalmgmt/index.jsp
+베어리언트 콜링?
+c6?
+
+ssh -p 22 14.63.174.75   // 공인ip
+14.63.215.67	genomeDB
+172.27.19.152	biomaster
+172.27.173.230	bioworker1
+172.27.219.200	bioworker2
+172.27.162.209	bioworker3
+172.27.183.42	bioworker4
+172.27.48.75	bioworker5
+172.27.189.7	bioworker6
+
+sun grid engine
+job scheduler
+
+유닉스 명령어들..
+sync-accounts
+// 동기화
+
+- parallel-ssh
+- qhost
+- qstat -u \* -f
+
+선그리드 엔진은 뭐지..  배치잡 스퀘쥴러..
+q .. 머시깽이들이 다 선그리드 엔진..
+qlogin
+bps , 토르투? npi
+지놈 ease 지놈 클라우드.  ngs 프로그램..
+
+qlogin -pe make 4   // 5번에서 돌리게 쓸 수 있게 하다.
+
+4개 core 독정  쓸 수 있다.
+
+cat /BIO/data/NIFTY2012/SRA/Dn.sh
+
+파일 큰거
+SRR748492
+
+요거 fastqc.thml ,zip ,  분석
+\\SRR358050_fastqc.html
+-rw-r--r-- 1 kozazz kozazz    322511 Dec  6 16:53 SRR358050.trimmed.converted_fastqc.html
+-rw-r--r-- 1 kozazz kozazz    404289 Dec  6 16:53 SRR358050.trimmed.converted_fastqc.zip
+-rw-r--r-- 1 kozazz kozazz  26140048 Dec  6 16:53 SRR358050.trimmed.converted.fastq.gz
+
+fastaq 생어?
+zless 압축 파일 안에 보기
+qulitiy per tile 디펙트????
+잘모르면
+bwa-mem 을 일단 썹고
+bwa same 파일 안 쓴다. 너무 커서
+samtools 로 압푹. 바이너리 작게 해서 쓴다.
+
+qsub -j 인/아웃풋 한꺼번에 . -o  아웃풋 -e error 파일만
+
+usegalaxy.org
+소개
+설치하면 된다고 함.?
+
+slake make // 자동화??
+samtools view  SRR358050.bam
+samtools view   -Sbh  샘파일을 뱀파일로 헤더 붙여서.
+
+SRR358050.bam.flagstat
+기본적인 통게. 듑. 등
+
+SRR358050.bam.idxstats
+몇개가 맵핑되었나
+트로모죰. 트라이죰 맵핑?
+
+SRR358050.bam.stats
+소팅 어떻게 돼었나
+길이
+미스패치.
+썬그리드,에스지. 토르스? sg 비슷한거. 파이프 라인하는 프로그램.
+
+sra1000genome.srp 파일. 천지놈 파일
+
+seunga 포멧/ 일루미나 장비.
+
+mem 알고리즘?
+
+클러스터 환경에서 작업하는 법..
+0  / 단일
+1 / 단이 qsub
+2.  / 여러 샘플 qsub , 디렉토리
+3.  /data set 을  1000지놈. 맵핑은 mem머시ㄱ??
+
+snake make 로 더 간단하게. snake make 는 머지..
+하나의  sub, 멀티 샘플도 가능하게..
+
+parallel-scp
+//파일 전송
+
+ncbi 천지놈?
+사이트 찾기
+ncbi sra 검색
+sra  SRR358050
+
+http://www.ncbi.nlm.nih.gov/sra/?term=SRR358050
+
+문서
+SRX102408: Noninvasive fetal trisomy detection
+
+ngs 는 엄청 크다
+적절히 작은 크기
+low depth 찍은거 ngs 트라이솜,.  뉴플로이디 크기가 작아 진다.?
+트라이솜 디텍션? 시퀀싱하고 트라이솜 체크 올려 놓은거?
+
+sra tool 킷은 뭐지..
+aspera 링크로 다운로드
+확장자 뭐. .에서 .. 파스트타q 로 뽑아야 한다.
+
+sta toolkit 으로 검색
+파스타q 덤프, 뱀 파일도 포함되어 있다고 함.
+
+콜링 솔리드 포맷 avi 덤프? 옛날은 솔리드??
+
+파스타큐 fastQC 파일 포맷 분석..
+statistics 스태틱
+
+통계
+스퀀시길이 40  // 옜날 길이
+gc는 40 정도면 사람.
+fastQc  : per base seq
+20~30 넘어가야 좋은 데이터라고 함.
+fastQc quality score  보는 법.   30 99.9  ... 99.99 .. ?  피크는 하나만 나와야 한다고 함
+fastQc:  per bse
+fastQc:  dup 단독으로 있어야 좋다.
+fastQc:  overa  전수는 아님 일부 조사임.
+fastx toolkit  도구.
+sickle 시클  도구 .   sickle 도구??  빈혈?? 필요없는 부분을 짤라 내는 도구 .
+ngs 엄청 크다. 파스타 직접 분석 경우 많음. 압축파일 다룰 수 있는가?
+필요 없는거 잘라내고. 압축 분ㅅ거.
+emboss 도구 ..
+faster 포맷
+rastq 포맷 비교.
+파일 분석하는 방법.
+ABC 대문자면 좋다 30 이상
+5678 그다음으로 좋음
+012345키보드 문자면 별루 안좋은
+bwa?
+gatk 파일에서 리드 그룹에는 뭐가 있으면 좋은가
+id ?
+pl : 플렛폼 정보  장비정보
+lb : library ?
+가능하면 정보를 헤더로 넣어주자.
+sra ? run number 있으면 사이트에서 찾는다. ?
+bwa 툴?? 머지
+bam 파일 분석
+r :repeat , U: unique
+유니크 하면 점수가 높다. 여러군에서 보이면 점수가 낮다 .
+bwa case
+x0 : bast match 정보..  xo:i:7  7군데에서 매칭이 보인다.  몇 번 매칭 안되는게 좋은거임. 유니크하게 붙어야 좋다고함
+유니크리드 중요함. g score 크로모죰 마다 얼마나 가나? 유니크리드만으로 계산.
+빌링? gc에 대한 컬랙션 하면 좋다고 함?
+인델?빠지거나 더 들어간 부분이 없다. 35M 위치상으로 맞다. 갭이 없다.
+
 
 쫄창2 회계 - 이희우 20141117
 ------------------------------
