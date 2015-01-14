@@ -93,3 +93,10 @@ http://www.html5rocks.com/ko/tutorials/webrtc/basics/
 2. 수신기:
 블루투스 + 모터,전구, 각종 센서
 
+### 참고자료
+[헤리포터 장난감](http://www.youtube.com/watch?v=thCDH83YiNA)
+[헤리포토 주문 목록위키](http://ko.wikipedia.org/wiki/%ED%95%B4%EB%A6%AC_%ED%8F%AC%ED%84%B0_%EC%8B%9C%EB%A6%AC%EC%A6%88%EC%9D%98_%EB%A7%88%EB%B2%95_%EB%AA%A9%EB%A1%9D)
+[헤리포터 주문 동영상](http://www.youtube.com/results?search_query=harry+potter+spells)
+
+
+
