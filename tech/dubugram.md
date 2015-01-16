@@ -19,6 +19,6 @@
 ![j8](/img/jal/j8.gif)
 ![j9](/img/jal/j9.gif)
 
-## [apk 다운로드](/img/jal/dubugram.apk)
+## [apk 다운로드](/img/jal/TMessagesProj-debug.apk)
 
 
