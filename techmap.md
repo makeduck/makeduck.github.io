@@ -22,3 +22,4 @@
   * [scraper](tech/scraper.md)
   * [arduino](tech/arduino.md)
   * [metal](tech/metal.md)
+  * [dubugram](tech/dubugram.md)
