@@ -20,6 +20,7 @@
 ![j7](/img/jal/j7.gif)
 ![j8](/img/jal/j8.gif)
 ![j9](/img/jal/j9.gif)
+![j10](/img/jal/j10.gif)
 
 ## [apk 다운로드](/img/jal/TMessagesProj-debug.apk)
 
