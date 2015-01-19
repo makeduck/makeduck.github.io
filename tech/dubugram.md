@@ -22,6 +22,16 @@
 ![j9](/img/jal/j9.gif)
 ![j10](/img/jal/j10.gif)
 
+![j11](/img/jal/j11.gif)
+![j12](/img/jal/j12.gif)
+![j13](/img/jal/j13.gif)
+![j14](/img/jal/j14.gif)
+![j15](/img/jal/j15.gif)
+
+![j16](/img/jal/j16.gif)
+![j17](/img/jal/j17.gif)
+![j18](/img/jal/j18.gif)
+
 ## [apk 다운로드](/img/jal/TMessagesProj-debug.apk)
 
 
