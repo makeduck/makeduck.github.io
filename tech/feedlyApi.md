@@ -4,6 +4,8 @@
 - github python wraper https://github.com/zgw21cn/FeedlyClient
 - [FeedlyClient](https://github.com/zgw21cn/FeedlyClient/blob/master/client.py)
 - tocken 기간이 길지 않다. 3달 정도유효.
+- sandbox.feedly.com
+
 
 FEEDLY_REDIRECT_URI = "http://localhost"
 FEEDLY_CLIENT_ID="sandbox"
