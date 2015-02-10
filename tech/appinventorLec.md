@@ -36,24 +36,25 @@ easy_feedly[다운로드] web api
 easy_spell[다운로드]
 easy_blue[다운로드](https://play.google.com/store/apps/details?id=appinventor.ai_doohwan_kwak.easy_blue) bluetooth chat
 easy_studyapp[다운로드]  ...activity start map
-
-## 기본앱
 easy_jjal .. webview load animated gif
 easy_today_jjal .. webivew load animated gif
-easy_view ... move multi view
-easy_wv_file ..webview load file
+
+
+## 기본앱
+[easy_storage](appinven/storage/storage.md)  ..save file.localDB, remoteDB
+[easy_view](appinven/view/move.md) ... move multi view
+[easy_wv_file](appinven/webview/file.md) ..webview load file
 easy_wv_localgif ..webview load gif
-easy_storage  ..save file.localDB, remoteDB
-easy_web .. web connectivity
-easy_gif .. gif chage frame
-easy_map .. webstarter map
-easy_listen_repeat .. TTS
-easy_nfc .. NFC
-easy_location .. GPS
-easy_stumble .. acc 센서
-easy_compass .. orientation 센서
+[easy_web](appinven/web_connectivity/web.md) .. web connectivity
+[easy_gif](appinven/animated_gif/gif.md) .. animated gif
+[easy_map](appinven/starter/starter.md) .. activity starter map
+[easy_listen_repeat](appinven/tts/tts.md) .. TTS
+[easy_nfc](appinven/nfc/nfc.md) .. NFC
+[easy_location](appinven/gps/gps.md) .. GPS
+[easy_stumble](appinven/acc/acc.md) .. acc 센서
+[easy_compass](appinven/compass/easy_compass.md) .. orientation 센서
 [easy_twitter](appinven/twitter/easy_twitter.md) .. twitter block
-[easy_nxt](appinven/nxt/easy_nxt.md) .. bluetooth connect NXT
+easy_nxt .. bluetooth connect NXT
 
 고급편
 브릿지를 통한 java 코드로 native code 생성

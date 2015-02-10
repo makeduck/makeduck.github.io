@@ -1,1 +1,1 @@
-## nxt
+## nxt <-> bluetooth
