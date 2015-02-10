@@ -29,14 +29,14 @@ mobile sync, build apk. play store 등록
 
 
 ## 응용
-[소개][다운로드]easy_hometoschool
-[소개][다운로드]easy_oneshot
-[소개][다운로드]easy_rss
-[소개][다운로드]easy_hit_profile  web storage, clock
-[소개][다운로드]easy_feedly web api
-[소개][다운로드]easy_spell
-[소개][다운로드]easy_blue bluetooth chat
-[소개][다운로드]easy_studyapp  ...activity start map
+[easy_hometoschool](appinven/easy_hometoschool.md)[다운로드] 두 지점 위치 인식 앱
+easy_oneshot[다운로드]
+easy_rss[다운로드]
+easy_hit_profile[다운로드]  web storage, clock
+easy_feedly[다운로드] web api
+easy_spell[다운로드]
+easy_blue[다운로드] bluetooth chat
+easy_studyapp[다운로드]  ...activity start map
 
 ## 기본앱
 easy_view ... move multi view
