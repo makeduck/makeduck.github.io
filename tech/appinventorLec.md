@@ -27,10 +27,42 @@ mobile sync, build apk. play store 등록
 - twitter,
 - webview
 
+
+## 응용
+[소개][다운로드]easy_hometoschool
+[소개][다운로드]easy_oneshot
+[소개][다운로드]easy_rss
+[소개][다운로드]easy_hit_profile  web storage, clock
+[소개][다운로드]easy_feedly web api
+[소개][다운로드]easy_spell
+[소개][다운로드]easy_blue bluetooth chat
+[소개][다운로드]easy_studyapp  ...activity start map
+
+## 기본앱
+easy_view ... move multi view
+easy_wv_file ..webview load file
+easy_wv_localgif ..webview load gif
+easy_storage  ..save file.localDB, remoteDB
+easy_jjal .. webview load animated gif
+easy_today_jjal .. webivew load animated gif
+easy_web .. web connectivity
+easy_gif .. gif chage frame
+easy_map .. webstarter map
+easy_listen_repeat .. TTS
+easy_nfc .. NFC
+easy_location .. GPS
+easy_stumble .. 3축 가속도 센서
+easy_compass .. orientation 센서
+easy_twitter .. twitter block
+easy_nxt .. bluetooth connect NXT
+
+
+
 고급편
 브릿지를 통한 java 코드로 native code 생성
 무슨 lib 파일을 이용한거 
 appinventorToJava 프로젝트
+[app-inventor-for-android](https://code.google.com/p/app-inventor-for-android/)
 
 슈퍼고급편
 앱인벤터 커밋터 되지.
