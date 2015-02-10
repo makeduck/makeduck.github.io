@@ -27,36 +27,33 @@ mobile sync, build apk. play store 등록
 - twitter,
 - webview
 
-
 ## 응용
 [easy_hometoschool](appinven/easy_hometoschool.md)[다운로드] 두 지점 위치 인식 앱
-easy_oneshot[다운로드]
-easy_rss[다운로드]
-easy_hit_profile[다운로드]  web storage, clock
+easy_oneshot[다운로드](https://play.google.com/store/apps/details?id=appinventor.ai_doohwan_kwak.easy_oneshot)
+easy_rss[다운로드](https://play.google.com/store/apps/details?id=appinventor.ai_doohwan_kwak.easy_rss)
+easy_hit_profile[다운로드](https://play.google.com/store/apps/details?id=appinventor.ai_doohwan_kwak.easy_hit_profile)  web storage, clock
 easy_feedly[다운로드] web api
 easy_spell[다운로드]
-easy_blue[다운로드] bluetooth chat
+easy_blue[다운로드](https://play.google.com/store/apps/details?id=appinventor.ai_doohwan_kwak.easy_blue) bluetooth chat
 easy_studyapp[다운로드]  ...activity start map
 
 ## 기본앱
+easy_jjal .. webview load animated gif
+easy_today_jjal .. webivew load animated gif
 easy_view ... move multi view
 easy_wv_file ..webview load file
 easy_wv_localgif ..webview load gif
 easy_storage  ..save file.localDB, remoteDB
-easy_jjal .. webview load animated gif
-easy_today_jjal .. webivew load animated gif
 easy_web .. web connectivity
 easy_gif .. gif chage frame
 easy_map .. webstarter map
 easy_listen_repeat .. TTS
 easy_nfc .. NFC
 easy_location .. GPS
-easy_stumble .. 3축 가속도 센서
+easy_stumble .. acc 센서
 easy_compass .. orientation 센서
-easy_twitter .. twitter block
-easy_nxt .. bluetooth connect NXT
-
-
+[easy_twitter](appinven/twitter/easy_twitter.md) .. twitter block
+[easy_nxt](appinven/nxt/easy_nxt.md) .. bluetooth connect NXT
 
 고급편
 브릿지를 통한 java 코드로 native code 생성
