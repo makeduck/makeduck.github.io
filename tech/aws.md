@@ -1,7 +1,7 @@
 ## aws
 - EC2 1년 무료
 - @naver.com 계정
-- redhat 아무것도 없다. , ami image 파일로 생성 앤간한거 깔려있는 이미지
+- redhat  또는 ami(amazone machine image)
 
 ## aws 가격
 ```
