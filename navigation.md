@@ -2,7 +2,7 @@
 
 [About](index.md)
 
-[TechMap][TechNote]()
+[TechMap](techmap.md)
 
 [TechNote]()
 
