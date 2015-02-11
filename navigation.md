@@ -2,11 +2,12 @@
 
 [About](index.md)
 
+[TechMap][TechNote]()
+
 [TechNote]()
 
   * #테크노트기획
   * [목차](technote.md)
-  * [맵](techmap.md)
   ----------
   * [techTree](techtree.md)
   * [Quickstart](quickstart.md)
