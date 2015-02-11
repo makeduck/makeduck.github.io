@@ -7,5 +7,5 @@
   * [redis](tech/redis.md) [regexr](tech/regexr.md) [raspberry](tech/raspberry.md)
   * [인공지능](tech/humanExperience.md)  [django](tech/django.md)  [scraper](tech/scraper.md)
   * [arduino](tech/arduino.md)  [metal](tech/metal.md)  [dubugram](tech/dubugram.md)
-  * [R](tech/R.md) [scala](scala.md) [feedlyApi](feedlyApi.md) [appinvenLec](/tech/appinventorLec.md) [appinventor](/tech/appinventor.md)
+  * [R](tech/R.md) [scala](tech/scala.md) [feedlyApi](tech/feedlyApi.md) [appinvenLec](/tech/appinventorLec.md) [appinventor](/tech/appinventor.md)
   * [gwt](tech/gwt.md) [scrapy](tech/scrapy.md) [xpath](tech/xpath.md) [aws](tech/aws.md)
