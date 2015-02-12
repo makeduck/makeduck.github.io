@@ -9,3 +9,4 @@
   * [arduino](tech/arduino.md)  [metal](tech/metal.md)  [dubugram](tech/dubugram.md)
   * [R](tech/R.md) [scala](tech/scala.md) [feedlyApi](tech/feedlyApi.md) [appinvenLec](/tech/appinventorLec.md) [appinventor](/tech/appinventor.md)
   * [gwt](tech/gwt.md) [scrapy](tech/scrapy.md) [xpath](tech/xpath.md) [aws](tech/aws.md)
+  * [server setting][tech/setting.md]
