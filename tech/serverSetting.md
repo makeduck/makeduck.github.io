@@ -36,6 +36,33 @@
 - 버젼 확인 cat /etc/*release*
 - bit 확인 getconf LONG_BIT
 
+## rpm repository 등록
+```
+cd /tmp
+wget https://dl.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-7-5.noarch.rpm
+ls *.rpm
+To install epel-release-7-5.noarch.rpm, type:
+sudo yum install epel-release-7-5.noarch.rpm
+```
+
+## 기본 설치
+```
+[root] # yum -y update
+[root] # yum -y install wget
+
+[root] # yum -y install gcc.x86_64 gcc-c++.x86_64 wget.x86_64 bzip2-devel.x86_64 pkgconfig.x86_64 openssl-devel.x86_64 make.x86_64 man.x86_64 nasm.x86_64 gmp.x86_64 gdbm-devel.x86_64 readline-devel.x86_64 compat-readline43.x86_64 ncurses-devel.x86_64 db4-devel.x86_64 automake* autoconf* distcache-devel.x86_64 pcre-devel.x86_64 libxslt-devel.x86_64 GeoIP-devel.x86_64 gd-devel.x86_64 libmcrypt libmcrypt-devel
+[root] # yum -y install libtermcap-devel ncurses-devel
+[root] # yum -y install libxml* curl-devel libjpeg* libpng* freetype-devel
+[root] # yum -y install glib2-devel openssl-devel pcre-devel bzip2-devel gzip-devel gcc make
+[root] # yum -y install perl-ExtUtils-Embed
+
+
+[root] # yum -y install make cmake
+[root] # yum -y install bison
+[root] # yum -y install wget unzip
+[root] # yum -y install bzip2
+```
+
 ## setup 설치 
 yum install setuptool system-config-securitylevel-tui authconfig system-config-network-tui ntsysv
 
@@ -147,4 +174,9 @@ java -version
 
 
 
-##
+## python
+```
+yum -y install python-pip
+sudo yum install python-devel mysql-devel
+ pip install mysql-python
+```
