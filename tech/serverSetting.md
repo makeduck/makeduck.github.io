@@ -1,6 +1,6 @@
 
 ## 서버 셋팅 server setting  
-- 쓸만한 서버 구성을 위한 
+- 쓸만한 서버 구성을 위한
 - apache ,tomcat ,enginex ,python ,anaconda ,postgre
 - 설치된거 쓰면 편한디..
 - 앤간하면 설치되어 있는거 python, java
@@ -8,24 +8,13 @@
 - php ,apache | Nginx
 
 ## 가정
-- 개발서버로 
+- aws EC2 redhat 7 기준으로 작성
+- 개발서버로
 - 스펙이 저렴 메모리 1G, storage 500MG , 1 cpu
 - 웹서버&mysql
 - redhat 계열, redhat 또는 cenos 
 - 빌드 파일을 직접 받자
 - 서비스 데몬도 추가 하자 
-
-# 순서 
-- rpm repostory 추가
-- 이렇게 안함
-
-- java
-- 버전별 다운로드 rpm 패키징 받아야 하나?
-- 경로는 
-
-- mysql 
-- 경로는
-
 
 ## 참고 기본설치
 [Nginx + Tomcat + MySQL](http://jongkwang.com/?p=941) bb
@@ -49,14 +38,11 @@ sudo yum install epel-release-7-5.noarch.rpm
 ```
 [root] # yum -y update
 [root] # yum -y install wget
-
 [root] # yum -y install gcc.x86_64 gcc-c++.x86_64 wget.x86_64 bzip2-devel.x86_64 pkgconfig.x86_64 openssl-devel.x86_64 make.x86_64 man.x86_64 nasm.x86_64 gmp.x86_64 gdbm-devel.x86_64 readline-devel.x86_64 compat-readline43.x86_64 ncurses-devel.x86_64 db4-devel.x86_64 automake* autoconf* distcache-devel.x86_64 pcre-devel.x86_64 libxslt-devel.x86_64 GeoIP-devel.x86_64 gd-devel.x86_64 libmcrypt libmcrypt-devel
 [root] # yum -y install libtermcap-devel ncurses-devel
 [root] # yum -y install libxml* curl-devel libjpeg* libpng* freetype-devel
 [root] # yum -y install glib2-devel openssl-devel pcre-devel bzip2-devel gzip-devel gcc make
 [root] # yum -y install perl-ExtUtils-Embed
-
-
 [root] # yum -y install make cmake
 [root] # yum -y install bison
 [root] # yum -y install wget unzip
@@ -72,7 +58,7 @@ wget http://dev.mysql.com/get/mysql-community-release-el6-5.noarch.rpm
 yum localinstall http://dev.mysql.com/get/mysql-community-release-el6-5.noarch.rpm
 yum update
 yum install mysql-community-server
- 
+
 service mysqld start
 MySQL 자동 실행 등록
 setup <– 서비스에서 mysqld 체크
@@ -82,7 +68,7 @@ mysqladmin -u root password XXXX
 
 mysql -u root -p XXXX
 show variables like 'c%';
- 
+
     +--------------------------+----------------------------+
     | Variable_name            | Value                      |
     +--------------------------+----------------------------+
@@ -106,7 +92,7 @@ utf8 도 있지만, latin1 도 보이고 한다.
 이것들을 바꿔 보자
 
 vi /etc/my.cnf
- 
+
 [mysqld]
 character_set_server=utf8
 collation_server=utf8_general_ci
@@ -117,10 +103,10 @@ character-set-client-handshake = TRUE
 다시 설정을 살펴보면
 
 service mysqld restart
- 
+
 mysql -u root -p XXXX
 show variables like 'c%';
- 
+
     +--------------------------+----------------------------+
     | Variable_name            | Value                      |
     +--------------------------+----------------------------+
@@ -168,7 +154,6 @@ yum install java-1.7.0-openjdk-devel
 // yum install java-1.7.0-openjdk java-1.7.0-openjdk-devel
 java -version
 ```
-
 
 ## tomcat
 
