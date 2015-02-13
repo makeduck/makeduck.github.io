@@ -7,6 +7,9 @@
 - 필수 java 버젼별 ,tomcat ,mysql ,git
 - php ,apache | Nginx
 
+# 방어벽
+- outbound port 개방 mysql(3306)
+
 ## 가정
 - aws EC2 redhat 7 기준으로 작성
 - 개발서버로
