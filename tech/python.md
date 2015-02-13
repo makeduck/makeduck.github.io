@@ -35,3 +35,6 @@ python notebook
 [바이오 파이썬 노트](python_study_note.md)
 
 
+crontab 인코딩이 문제라면
+------------------------------
+PYTHONIOENCODING=utf8
