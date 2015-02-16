@@ -36,4 +36,8 @@ mysql> show global variables ;
 
 ```
 
+## select format
+- select * from table \G;
+
+
 ## 이외에 관리는 툴을 쓰는게 낫다
