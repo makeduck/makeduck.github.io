@@ -8,7 +8,3 @@
   * [인공지능](tech/humanExperience.md)  [django](tech/django.md)  [scraper](tech/scraper.md)
   * [arduino](tech/arduino.md)  [metal](tech/metal.md)  [dubugram](tech/dubugram.md)
   * [R](tech/R.md) [scala](scala.md) [feedlyApi](feedlyApi.md)
-
-
-## map
-  * [decoolLego](sub/decoolLego.md) [potal](sub/potal.md)

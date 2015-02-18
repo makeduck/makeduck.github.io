@@ -1,0 +1,2 @@
+## animated GIF
+- ![](animatedGif.png)

@@ -1,0 +1,87 @@
+{
+  "YaVersion": "118",
+  "Source": "Form",
+  "Properties": {
+    "$Name": "Screen1",
+    "$Type": "Form",
+    "$Version": "14",
+    "Uuid": "0",
+    "AppName": "aa",
+    "Title": "Screen1",
+    "$Components": [
+      {
+        "$Name": "Button1",
+        "$Type": "Button",
+        "$Version": "6",
+        "Uuid": "-623484236",
+        "Text": "Text for Button1"
+      },
+      {
+        "$Name": "CheckBox1",
+        "$Type": "CheckBox",
+        "$Version": "2",
+        "Uuid": "-556551314",
+        "Text": "Text for CheckBox1"
+      },
+      {
+        "$Name": "Image1",
+        "$Type": "Image",
+        "$Version": "1",
+        "Uuid": "1027110216"
+      },
+      {
+        "$Name": "ListPicker1",
+        "$Type": "ListPicker",
+        "$Version": "9",
+        "Uuid": "-334189635",
+        "Text": "Text for ListPicker1"
+      },
+      {
+        "$Name": "Label1",
+        "$Type": "Label",
+        "$Version": "3",
+        "Uuid": "-1761845285",
+        "Text": "Text for Label1"
+      },
+      {
+        "$Name": "Label2",
+        "$Type": "Label",
+        "$Version": "3",
+        "Uuid": "-1093870379",
+        "Text": "Text for Label2"
+      },
+      {
+        "$Name": "TextBox1",
+        "$Type": "TextBox",
+        "$Version": "4",
+        "Uuid": "1355368927",
+        "Hint": "Hint for TextBox1"
+      },
+      {
+        "$Name": "TextBox2",
+        "$Type": "TextBox",
+        "$Version": "4",
+        "Uuid": "1493759030",
+        "Hint": "Hint for TextBox2"
+      },
+      {
+        "$Name": "BluetoothServer1",
+        "$Type": "BluetoothServer",
+        "$Version": "5",
+        "Uuid": "-1142387439"
+      },
+      {
+        "$Name": "ActivityStarter1",
+        "$Type": "ActivityStarter",
+        "$Version": "4",
+        "Uuid": "-55837429"
+      },
+      {
+        "$Name": "File1",
+        "$Type": "File",
+        "$Version": "1",
+        "Uuid": "-929679500"
+      }
+    ]
+  }
+}

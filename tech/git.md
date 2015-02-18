@@ -31,6 +31,44 @@ D:\workspace_intellij\biopy.github.io>git mergetool
 
 D:\workspace_intellij\biopy.github.io>git push biospin master_biospin:master
 
+
+
+# branch 변경
+
+$ git fetch origin
+$ git checkout gh-pages
+
+
+# fork repository sync
+
+## upsteam 등록
+https://help.github.com/articles/configuring-a-remote-for-a-fork/
+
+git remote -v
+
+upsteam 으로 등록
+
+git remote add upsteam https://github.com/mit-cml/appinventor-sources.git
+
+git remote -v
+
+## sync upsteam 
+https://help.github.com/articles/syncing-a-fork/
+
+git fetch upsteam
+
+git checkout master
+
+git merge upsteam/master
+
+
+안되서 이거 진행함.
+git reset --hard origin/master
+
+
+
+
+
 참고
 ---------
 

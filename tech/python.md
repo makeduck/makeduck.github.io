@@ -35,3 +35,16 @@ python notebook
 [바이오 파이썬 노트](python_study_note.md)
 
 
+crontab 인코딩이 문제일때
+------------------------------
+PYTHONIOENCODING=utf8
+
+## flask + mysql 
+- pip install flask-mysql
+```
+from flaskext.mysql import MySQL
+...
+cursor = mysql.connect().cursor()
+    cursor.execute("SELECT * from scrapy_football_player")
+
+```
