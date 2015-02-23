@@ -66,7 +66,11 @@ git merge upsteam/master
 git reset --hard origin/master
 
 
-
+# remote bitbucket 추가
+cd /path/to/my/repo
+git remote add origin https://kozazz@bitbucket.org/kozazz/androidbanner.git
+git push -u origin --all # pushes up the repo and its refs for the first time
+git push -u origin --tags # pushes up any tags
 
 
 참고
