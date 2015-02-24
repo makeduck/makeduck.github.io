@@ -37,5 +37,28 @@ http://damool8.tistory.com/1506
 
 http://blog.saltfactory.net/63
 
-https://console.developers.google.com/
+
+
+appinventor tiny webdb
+---------------------------
+0  [webdb소개](http://beta.appinventor.mit.edu/learn/reference/other/tinywebdb.html)  앱이름.appspot.com    axiomatic-path-865.appspot.com
+1 앱생성 https://console.developers.google.com/
+2 압축 받아서풀어.customtinywebdb
+3 app.yaml 수정 후 deploy. deploy 권한 필요. 설정내 로그인을 통한 배포 부분 설정
+```
+application: bold-vortex-833
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /images
+  static_dir: images
+
+- url: .*
+  script: main.py
+
+
+```
+
 
