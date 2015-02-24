@@ -10,7 +10,7 @@
   * [R](tech/R.md) [scala](tech/scala.md) [feedlyApi](tech/feedlyApi.md) [appinvenLec](/tech/appinventorLec.md) [appinventor](/tech/appinventor.md)
   * [gwt](tech/gwt.md) [scrapy](tech/scrapy.md) [xpath](tech/xpath.md) [aws](tech/aws.md)
   * [server setting](tech/serverSetting.md) [sql_pram_binding](tech/pram_binding.md) [telnet](tech/telnet.md)
-  * [cpp](tech/cpp.md)
+  * [cpp](tech/cpp.md) [html5webcam](tech/html5webcam.md)
 
 ## map
   * [account](sub/account.md) [decoolLego](sub/decoolLego.md) [potal](sub/potal.md)
