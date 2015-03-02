@@ -1,0 +1,85 @@
+#|
+$Source $Yail
+|#
+
+(define-form appinventor.ai_test.aa.Screen1 Screen1)
+(require <com.google.youngandroid.runtime>)
+
+;;; Screen1
+
+(do-after-form-creation (set-and-coerce-property! 'Screen1 'AppName "aa" 'text)
+ (set-and-coerce-property! 'Screen1 'Title "Screen1" 'text)
+)
+
+;;; Button1
+
+(add-component Screen1 Button Button1 
+(set-and-coerce-property! 'Button1 'Text "Text for Button1" 'text)
+
+)
+
+(define-event Button1 Click()(set-this-form)
+    (set-and-coerce-property! 'Label1 'Text "dubudu" 'text))
+;;; CheckBox1
+
+(add-component Screen1 CheckBox CheckBox1 
+(set-and-coerce-property! 'CheckBox1 'Text "Text for CheckBox1" 'text)
+
+)
+
+;;; Image1
+
+(add-component Screen1 Image Image1 
+)
+
+;;; ListPicker1
+
+(add-component Screen1 ListPicker ListPicker1 
+(set-and-coerce-property! 'ListPicker1 'Text "Text for ListPicker1" 'text)
+
+)
+
+;;; Label1
+
+(add-component Screen1 Label Label1 
+(set-and-coerce-property! 'Label1 'Text "Text for Label1" 'text)
+
+)
+
+;;; Label2
+
+(add-component Screen1 Label Label2 
+(set-and-coerce-property! 'Label2 'Text "Text for Label2" 'text)
+
+)
+
+;;; TextBox1
+
+(add-component Screen1 TextBox TextBox1 
+(set-and-coerce-property! 'TextBox1 'Hint "Hint for TextBox1" 'text)
+
+)
+
+;;; TextBox2
+
+(add-component Screen1 TextBox TextBox2 
+(set-and-coerce-property! 'TextBox2 'Hint "Hint for TextBox2" 'text)
+
+)
+
+;;; BluetoothServer1
+
+(add-component Screen1 BluetoothServer BluetoothServer1 
+)
+
+;;; ActivityStarter1
+
+(add-component Screen1 ActivityStarter ActivityStarter1 
+)
+
+;;; File1
+
+(add-component Screen1 File File1 
+)
+
+(init-runtime)

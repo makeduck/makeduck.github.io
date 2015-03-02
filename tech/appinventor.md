@@ -52,9 +52,18 @@ kawa compile  -> compiling to bytecode
 쉬운 코드 블럭을 만들고,  바로 bytecode 생성  apk 실행. 
 java   -> to comfile byte code  -> apk
 쉬운 appinventor code -> to comfile byte code  -> apk
+ Blockly - [block editor](https://code.google.com/p/blockly/)
 
 ## wifi sync 하는 부분.
 
 Ode.java
   private void wontConnectDialog() {
+
+## open source contiributing
+- [appinventor dev doc](https://developers.google.com/blockly/)
+- 고쳐보자
+- 무엇을 개선할꼬, list sorting
+- 사운드 초기화 일부 모델에서 소리나지 않음 고쳐보자. 삼송 S노트2, S5. view에서 지정된 resource가 작동하지 않음. 
+- 안되는예제 등록 및 원본 코드 고치기..
+
 
