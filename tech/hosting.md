@@ -41,7 +41,7 @@ http://blog.saltfactory.net/63
 
 appinventor tiny webdb
 ---------------------------
-0  [webdb소개](http://beta.appinventor.mit.edu/learn/reference/other/tinywebdb.html)  앱이름.appspot.com    axiomatic-path-865.appspot.com
+0  [webdb소개](http://beta.appinventor.mit.edu/learn/reference/other/tinywebdb.html)  앱이름.appspot.com
 1 앱생성 https://console.developers.google.com/
 2 압축 받아서풀어.customtinywebdb
 3 app.yaml 수정 후 deploy. deploy 권한 필요. 설정내 로그인을 통한 배포 부분 설정
@@ -58,6 +58,8 @@ handlers:
 - url: .*
   script: main.py
 
+axiomatic-path-865 -- 피드백용
+automatic-ace-867 -- 스탬프 랭킹용
 
 ```
 
