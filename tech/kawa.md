@@ -2,7 +2,7 @@
 - http://www.gnu.org/software/kawa
 ```
 get kawa-2.0.jar
-java -classpath kawa-2.0.jar epl kawa.repl
+java -classpath kawa-2.0.jar kawa.repl
 ```
 
 ## todo
