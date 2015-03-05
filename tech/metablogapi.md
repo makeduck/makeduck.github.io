@@ -1,5 +1,7 @@
 ## metaBlogAPi
 
+## 참고 
+- http://myinformation.tistory.com/111
 
 ## Post
 - tistory
