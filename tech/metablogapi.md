@@ -17,7 +17,7 @@ MetaWeblog API 오류에서는 Windows Live Spaces가 오류를 반환하도록 
 ## 참고 
 - http://myinformation.tistory.com/111
 
-## Post
+## newPost
 - tistory
 ```
 
@@ -37,3 +37,13 @@ r = metaWeblog.getPost(no, "blogId@hanmail.net","password")
 - naver blog
 
 - daumblog
+
+
+## editPost
+## metaWeblog.getPos
+##  metaWeblog.getCategories
+##  metaWeblog.getRecentPosts 
+##  metaWeblog.getRecentPosts
+##  blogger.deletePost
+## blogger.getUsersBlogs
+## blogger.getUserInfo
