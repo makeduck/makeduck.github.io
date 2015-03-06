@@ -5,6 +5,7 @@ http://ko.wikipedia.org/wiki/XPath
 
 ## 도움되는 plugin 
 - firefox add on "xpath prototyping"
+- 사용법 alt+왼쪽크릭시  xpath(절대경로값) 표시
 
 ## scrapy 설치 
 -
