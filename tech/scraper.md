@@ -14,3 +14,20 @@ ctrl + b +명령어
 - http://jedi.jedidjah.ch/en/latest/
 - install https://github.com/davidhalter/jedi-vim
 - http://unlogic.co.uk/2013/02/08/vim-as-a-python-ide/
+
+```
+2.3. Installing using Vundle		*jedi-vim-installation-vundle*
+
+1. Vundle automatically downloads subrepositories as git submodules, so you
+   will automatically get the jedi library with the jedi-vim plugin. Add the
+   following to the Bundles section in your .vimrc file: >
+
+    Plugin 'davidhalter/jedi-vim'
+
+2. Issue the following command in Vim: >
+
+    :PluginInstall
+
+Help tags are generated automatically, so you should be good to go.
+
+```
