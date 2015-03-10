@@ -16,3 +16,4 @@
 
 ## map
   * [account](sub/account.md) [decoolLego](sub/decoolLego.md) [potal](sub/potal.md)
+  * [cloth](cloth.md)
