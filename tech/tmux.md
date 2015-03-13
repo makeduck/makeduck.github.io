@@ -4,3 +4,6 @@
 나오기 ctrl+b+d
 다시붙기 tmux attach
 
+# 참고 
+http://blog.outsider.ne.kr/699
+
