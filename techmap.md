@@ -12,7 +12,7 @@
   * [server setting](tech/serverSetting.md) [sql_pram_binding](tech/pram_binding.md) [telnet](tech/telnet.md)
   * [cpp](tech/cpp.md) [html5webcam](tech/html5webcam.md) [kawa](tech/kawa.md)  [php](tech/php.md)
   * [3d-modeling](tech/3d-modeling.md)  [metablogapi](tech/metablogapi.md)
-  * [erd db modeling](tech/db-modeling.md)
+  * [erd db modeling](tech/db-modeling.md) [vim](tech/vim.md)
 
 ## map
   * [account](sub/account.md) [decoolLego](sub/decoolLego.md) [potal](sub/potal.md)
