@@ -41,3 +41,12 @@ mysql> show global variables ;
 
 
 ## 이외에 관리는 툴을 쓰는게 낫다
+
+## 매번 서버 시작시 등록
+데몬관리 gui 툴 sudo ntsysv
+
+## 데몬 실행
+service mysqld stop      <- 정지
+service mysqld start      <- 시작
+service mysqld restart      <- 재시작
+
