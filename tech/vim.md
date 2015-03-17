@@ -1,6 +1,6 @@
 
 # 쓸려면 기억 안나는 명령어
-창분할  ctrl +w +c
+창분할 가로분할 ctrl+w+n  ,세로분할ctrl+w+n  ,창종료 ctrl +w +c
 창크기변견  :resize 40
 창 이동 ctrl +w + hjkl
 탭생성 :tabnew
@@ -9,3 +9,4 @@
 링크이동 ctrl+]
 이력 :hist
 aaa
+
