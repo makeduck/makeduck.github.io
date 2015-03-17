@@ -13,7 +13,7 @@
   * [cpp](tech/cpp.md) [html5webcam](tech/html5webcam.md) [kawa](tech/kawa.md)  [php](tech/php.md)
   * [3d-modeling](tech/3d-modeling.md)  [metablogapi](tech/metablogapi.md)
   * [erd db modeling](tech/db-modeling.md) [vim](tech/vim.md) [tmux](tech/tmux.md) [sourcetree](tech/sourcetree.md)
-  * [bbi](tech/bbi.md)
+  * [bbi](tech/bbi.md)  [android](tech/android.md)
 
 ## map
   * [account](sub/account.md) [decoolLego](sub/decoolLego.md) [potal](sub/potal.md)
