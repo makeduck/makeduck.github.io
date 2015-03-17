@@ -4,21 +4,14 @@ import matplotlib.pyplot as plt
 from datetime import datetime
 from pandas.io.data import DataReader
 
-code_names = { '^KS11':'KOSPI',
-               '005930.KS':'Samsung Elec', '005380.KS':'Hyundai Motor',
-               '012330.KS':'Hyundai Mobis', '005490.KS':'POSCO',
-               '000660.KS':'SK Hynix','035420.KS':'Naver',
-               '005935.KS':'Samsung Elec(Prep)', '000270.KS':'Kia Motor',
-               '055550.KS':'Shinhan', '015760.KS':'Korea Elc Pwr' }
-
 # 컬럼이름바꾸기
 code_names = {
     '005930.KS':'Samsung Elec', '005380.KS':'Hyundai Motor','000660.KS':'SK Hynix', '015760.KS':'kor elect',
     '012330.KS':'Hyundai Mobis', '005490.KS':'POSCO', '017670.KS':'SK tele','^KS11':'KOSPI',
     '035420.KS':'NAVER','055550.KS':'sinhan','032830.KS':'samsung life', '000270.KS':'Kia', '090430.KS':'AmoreF',
-    '090430.KS':'LG chemi','105560.KS':'KB','000810.KS':'samsung life', '034220.KS':'LG display', '033780.KS':'KTnG',
+    '090430.KS':'LG chemi','105560.KS':'KB','000810.KS':'samsung fire', '034220.KS':'LG display', '033780.KS':'KT&G',
     '051900.KS':'LG health','003550.KS':'LG','034730.KS':'SK cnc', '066570.KS':'LG elec', '002790.KS':'AmoreG',
-    '009540.KS':'Samsung shi','006400.KS':'Samsung SDI','086280.KS':'Hy globis', '096770.KS':'SK ino', '000830.KS':'Samsung cnt'}
+    '009540.KS':'Samsung shi','006400.KS':'Samsung SDI','086280.KS':'Hy globis', '096770.KS':'SK ino', '000830.KS':'Samsung c&t'}
 
 df = DataReader(code_names.keys(), 'yahoo', start='2014-03-01', end='2015-02-28')
 
