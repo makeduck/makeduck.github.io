@@ -25,8 +25,10 @@ mysql>flush privileges;
 
 또는 
 mysql> GRANT ALL PRIVILEGES ON dbname.* TO username@localhost IDENTIFIED BY 'password';
+
 #외부 접근 추가
 GRANT ALL PRIVILEGES ON dbname.* TO username@'%' IDENTIFIED BY 'password';
+
 #불필요한 사용자 삭제는
 mysql> DLETE FROM user WHERE user='username';
 mysql> FLUSH PRIVILEGES;
@@ -50,3 +52,6 @@ service mysqld stop      <- 정지
 service mysqld start      <- 시작
 service mysqld restart      <- 재시작
 
+# mysql dump
+- 저장 mysqldump -uscrapy -p scrapy > scrapy_dump.txt
+- 복구 mysql -uscrapy -p < dump.sql
