@@ -37,3 +37,7 @@ Help tags are generated automatically, so you should be good to go.
 ## vundles
 - vim bundle 설치 플러그인
 - plugin 확인 :BundleList
+
+# NERDTree
+- tmux 아래에서 F2 키 실행 아니됨 ;
+- vim :NERDTree 로 직접 띄우자
