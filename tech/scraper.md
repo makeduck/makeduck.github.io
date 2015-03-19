@@ -35,6 +35,7 @@ Help tags are generated automatically, so you should be good to go.
 - 단축키 설명창 활성 jedi-vim    shift + k
 - :help jedi-vim
 - import module 못찾을 때 path 추가 vim  : python import sys; sys.path.append('/home/ec2-user/anaconda/lib/python2.7/site-packages')
+- 모듈설명 찾아 볼때 :Pyimport Flask     , :Pyimport numpy.sort
 
 ## vundles
 - vim bundle 설치 플러그인
