@@ -31,3 +31,9 @@ ctrl + b +명령어
 Help tags are generated automatically, so you should be good to go.
 
 ```
+
+- 단축키 설명창 활성  shift + k
+
+## vundles
+- vim bundle 설치 플러그인
+- plugin 확인 :BundleList
