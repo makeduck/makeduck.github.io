@@ -8,7 +8,7 @@
 이전페이지 ctrl +^
 링크이동 ctrl+]
 이력 :hist
-블럭이동 ctrl+f ,ctrl+f
+블럭이동 ctrl+f ,ctrl+b
 encoding 확인 :set encoding 재설정 set encoding=utf-8
 encoding 리스트 iconv -l
 encoding 변경. iconv -f ISO_8859-1 -t UTF-8 bbi_misc.cpp >bbi_misc.cpp
