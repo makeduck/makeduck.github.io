@@ -5,6 +5,7 @@
 다시붙기 tmux attach
 세션리스트 tmux ls
 세션선택 이동 ctrl + b + s
+윈도우 죽이기 tmux kill-window -t 9
 
 # 참고 
 http://blog.outsider.ne.kr/699
