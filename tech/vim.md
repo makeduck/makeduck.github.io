@@ -14,6 +14,7 @@ encoding 리스트 iconv -l
 encoding 변경. iconv -f ISO_8859-1 -t UTF-8 bbi_misc.cpp >bbi_misc.cpp
 라인넘버 :set nu , :set nonu
 블럭주석 ctrl+v ,shift+i ,글자 ,esc
+python 블럭 indent v +선택 +indentLevel(0..9) + >
 
 
 

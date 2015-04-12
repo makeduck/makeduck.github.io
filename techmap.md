@@ -17,7 +17,7 @@
 
 ## map
   * [account](sub/account.md) [decoolLego](sub/decoolLego.md) [potal](sub/potal.md)
-  * [cloth](cloth.md)
+  * [cloth](cloth.md)  [origami](sub/origami.md)
 
 ## doc
  * [stock2015](python/stock2015.py)
