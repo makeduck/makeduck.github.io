@@ -19,3 +19,10 @@ M1 Small	1	1	1.7	160	0.088	96.58836	4	2,318	69,544	846,114
 - ppk 파일 연결시 비번대신 사용
 - 계정 ec2-user | root
 
+## 초기 설정
+- tzselect 실행
+- sudo /etc/profile 내용 추가
+```
+TZ='Asia/Seoul'; export TZ
+```
+- source /etc/profile
