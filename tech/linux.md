@@ -12,6 +12,14 @@ visual vm 에서 봐도 좋고
 
 ### vi
 - :%s/찾아서/바꿔라/g
+- 매일 까먹는다
+
+ls -al -SS  크기순
+while TRUE ; do  print time ; done;
+
+## inode
+- 충분히 커서 신경 쓸 일 없으나  sub folder 는 32000 개 정도가 max 폴더생성 안됨. 백업파일 만들다가 max 채워봤다.
+
 
 ### 참고
 http://helloworld.naver.com/helloworld/10963
