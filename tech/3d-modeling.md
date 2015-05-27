@@ -42,3 +42,7 @@ abs 240 -260
 preview -> pre -> fla 히팅하기
 preview -> print from sd 카드
 preview -> down -> stop
+
+pla 설정값 샷
+![](/img/3dset01.jpg)
+![](/img/3dset02.jpg)
