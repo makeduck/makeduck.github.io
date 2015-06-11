@@ -1,4 +1,7 @@
 
+## max os 셋팅
+http://ezsnote.tistory.com/entry/os-x-mavericks-%EC%97%90%EC%84%9C-apache-tomcat-%EC%84%A4%EC%A0%95
+mod_jk.so  mac 은 직접 컴파일 필요.
 
 ## apache 실행 비교
 - service httpd start > /etc/init.d/httpd start > apachectl start

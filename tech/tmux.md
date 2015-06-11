@@ -1,5 +1,8 @@
 
 # tmux 명령어 
+새창 ctrl + b + c
+창종료 ctrl + b + &
+창스크롤 ctrl + b + [
 주로 ctrl + b  + 명령들
 나오기 ctrl+b+d
 다시붙기 tmux attach
