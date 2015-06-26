@@ -37,7 +37,7 @@ generatorConfigMyBatis.xml  // sample
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
 <generatorConfiguration>
-  <classPathEntry location="/Users/rigel/workspace/prmc/codUtilMenu/lib/mysql-connector-java-5.1.21.jar" />
+  <classPathEntry location="/Users/folder/lib/mysql-connector-java-5.1.21.jar" />
 
   <context id="context1">
     <jdbcConnection driverClass="com.mysql.jdbc.Driver"
