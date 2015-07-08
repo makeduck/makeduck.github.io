@@ -7,3 +7,8 @@ document.getElementsByTagName('head')[0].appendChild(jq);
 // ... give time for script to load, then type.
 jQuery.noConflict();
 ```
+
+
+### plugin
+
+[jQuery BlockUi](http://jquery.malsup.com/block/#demos)
