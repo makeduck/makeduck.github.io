@@ -72,6 +72,19 @@ git remote add origin https://kozazz@bitbucket.org/kozazz/androidbanner.git
 git push -u origin --all # pushes up the repo and its refs for the first time
 git push -u origin --tags # pushes up any tags
 
+신규 저장소 업로드
+git push -u origin master
+
+remote 연결 정보
+git branch -r
+
+trackin 정보 조회
+git branch -vv   // trackin 연결 정보까지 조회
+
+trackin 정보 변경
+git branch -u upstream/master master
+
+
 
 참고
 ---------
