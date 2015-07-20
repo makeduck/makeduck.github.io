@@ -13,7 +13,7 @@
 <br>
 <br>
 마켓에 있는거 <br>
-<textarea id="market" cols="50"  rows="4"></textarea>
+<textarea id="market" cols="50"  rows="4" disabled></textarea>
 <br>
 내 냉장고 <br>
 <textarea id="in" cols="50"  rows="4"></textarea>
@@ -31,11 +31,11 @@
     var f1 = {id : 0, item:[0] ,  desc:"[라면] 라면을 맛나게 끊여서 먹습니다. 조리법은 봉지뒷면 참조"};
     var f2 = {id : 1, item:[1] ,  desc:"[떡구이] 떡을 구어서 익혀 먹습니다."};
     var f3 = {id : 2, item:[2] ,  desc:"[고기구이] 고기를 구어 먹습니다. 고추장을 좀 찍어 줍니다."};
-    var f4 = {id : 3, item:[3] ,  desc:"스팸 구이. 스팸 구어서 드셔요"};
-    var f5 = {id : 4, item:[4] ,  desc:"만두찜. 만두를 쪄서 간장을 찍어 먹어 보아요"};
-    var f6 = {id : 5, item:[0,1] ,  desc:"라뽁이 떡복이를 먼저 끊인 후 라면을 넣습니다."};
-    var f7 = {id : 6, item:[2,3] ,  desc:"고기햄 볶음, 햄과 고기를 넣고 볶아서 먹습니다."};
-    var f8 = {id : 7, item:[0,1,2,3] ,  desc:"부대찌게 물 넣고, 햄,고기, 라면 넣고 끊입니다."};
+    var f4 = {id : 3, item:[3] ,  desc:"[스팸 구이] 스팸 구어서 드셔요"};
+    var f5 = {id : 4, item:[4] ,  desc:"[만두찜] 만두를 쪄서 간장을 찍어 먹어 보아요"};
+    var f6 = {id : 5, item:[0,1] ,  desc:"[라뽁이] 떡복이를 먼저 끊인 후 라면을 넣습니다."};
+    var f7 = {id : 6, item:[2,3] ,  desc:"[고기햄 볶음] 햄과 고기를 넣고 볶아서 먹습니다."};
+    var f8 = {id : 7, item:[0,1,2,3] ,  desc:"[부대찌게] 물 넣고, 햄,고기, 라면 넣고 끊입니다."};
     var all = {f1,f2,f3,f4,f5,f6,f7,f8}
 
     var rsList;
@@ -48,6 +48,7 @@
 
         var v = $("#in").val().trim();
         var items = v.split(',');
+        items = _.map(items , function(val){return val.trim()})
         // all true
         if( _.every(_.map(items,function(val){return _.contains(itemList, val)}))){
 
