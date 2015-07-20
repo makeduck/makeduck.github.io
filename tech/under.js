@@ -127,7 +127,107 @@ Chaining
 - _.value
 
 
-===============================
+==============================
+
+
+
+<input id="in">
+<input id="out">
+
+<script>
+//    jQuery("#in").keypress(function(event )console.log(event.keyCode));
+
+var itemList = ["gr" , "gg" ,"mandu" ,"fish" , 'rm'];
+var f1 = {id : 0, item:[0,1,2,3] ,  desc:"aaa a aaa a a  aaa"};
+var f2 = {id : 1, item:[0,1] ,  desc:"bb bbbbbb bb b b b"};
+var f3 = {id : 2, item:[0,1,3] ,  desc:" ccc c c c cccccc c c cc"};
+var f4 = {id : 3, item:[0,3] ,  desc:"ddd d ddd ddd"};
+var f5 = {id : 4, item:[0,2,3] ,  desc:"eee e ee"};
+var f6 = {id : 4, item:[0,4] ,  desc:"eee e ee"};
+var all = {f1,f2,f3,f4,f5,f6}
+
+var rsList;
+
+$("#in").keyup(function (event) {
+    //console.log(event.keyCode)
+    //console.log($("#in").val())
+
+    var v = $("#in").val();
+    var item = _(v.split(',')).last();
+
+    if(_.contains(itemList, item)){
+
+        if(v.split(',').length > 1){
+
+            console.log("many");
+            var idx = _.indexOf(itemList, item);
+            rsList = _.filter(rsList , function(val ){ return _.contains(val.item, idx)});
+
+            $("#out").val(rsList[0].desc);
+            console.log(rsList);
+
+        }else{
+            var idx = _.indexOf(itemList, item);
+            rsList = _.filter(all , function(val ){ return _.contains(val.item, idx)});
+
+            $("#out").val(rsList[0].desc);
+            console.log(rsList);
+
+
+        }
+    }
+
+
+
+});
+
+</script>
+
+
+
+iteratee
+_.iteratee is
+  map, find, filter, reject, every
+, some, max, min, sortBy, groupBy
+, indexBy , countBy, sortedIndex, partition, and unique.
+
+
+
+0 ~ 98 짝수합
+var numbers = _.range(0,100, 2)
+_.reduce(numbers , function(memo, val){return memo +val }, 0)
+
+var r1 = {id : "d0", point :  11}
+var r2 = {id : "d1", point :  345}
+var r3 = {id : "d2", point :  23}
+var r4 = {id : "d3", point :  54}
+var r5 = {id : "d4", point :  43}
+var r6 = {id : "d5", point :  32}
+var r7 = {id : "d6", point :  43}
+var r8 = {id : "d7", point :  54}
+var r9 = {id : "d8", point :  21}
+
+var ranks = [r1,r2,r3,r4,r5,r6,r7,r8,r9]
+
+등수 뽑
+_.sortedIndex(ranks,{id:'dubu',point:33},'point')
+_(ranks).min(_.iteratee('point'))
+
+
+
+
+    var itemList = ["gr" , "gg" ,"mandu" ,"fish" , 'rm'];
+var f1 = {id : 0, item:[0,1,2,3] ,  desc:"aaa a aaa a a  aaa"};
+var f2 = {id : 1, item:[0,1] ,  desc:"bb bbbbbb bb b b b"};
+var f3 = {id : 2, item:[0,1,3] ,  desc:" ccc c c c cccccc c c cc"};
+var f4 = {id : 3, item:[0,3] ,  desc:"ddd d ddd ddd"};
+var f5 = {id : 4, item:[0,2,3] ,  desc:"eee e ee"};
+var f6 = {id : 4, item:[0,4] ,  desc:"eee e ee"};
+var all = {f1,f2,f3,f4,f5,f6}
+
+_.filter(all , function(val ){ return _.contains(val.item, 0)})
+
+_.filter(all , function(val ){ return _.contains(val.item, 0) && _.contains(val.item, 4)})
 
 
 합계계산
@@ -150,7 +250,7 @@ func(){_.toArray(return arguments; )}(1,2,3,4)
 하나만 찾음
 _.find({m1,m2,m3,m4}, {'age':20})
 
-여러가 찾
+여러가 찾음
 _.filter({m1,m2,m3,m4}, {'age':20})
 
 _.filter({m1,m2,m3,m4}, function(val){ return val > 20})
