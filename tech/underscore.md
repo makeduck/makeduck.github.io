@@ -7,6 +7,22 @@ document.getElementsByTagName('head')[0].appendChild(jq);
 jQuery.noConflict();
 ```
 
-
+http://underscorejs.org/
 
 http://underscorejs.org/underscore.js
+
+
+## example
+
+
+```
+var member  =  [ “rigel” , “ted” , “kylie”]; var ranIdx = _.random(0 , )
+
+
+_.random(1,2)
+
+
+
+
+
+```
