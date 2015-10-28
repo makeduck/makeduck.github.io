@@ -3,7 +3,7 @@
 
 ![](http://dubu.github.io/cdn/stl/docso/docso01.jpg)
 
-![](http://dubu.github.io/cdn/stl/docso/docso01.jpg)
+![](http://dubu.github.io/cdn/stl/docso/docso02.jpg)
 
 ![](http://dubu.github.io/cdn/stl/docso/docso03.jpg)
 
