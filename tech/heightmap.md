@@ -1,12 +1,17 @@
 
 ## 3D height map
 
-![](/img/blender/docso02.jpg)
+![](http://dubu.github.io/cdn/stl/docso/docso01.jpg)
 
-![](/img/blender/docso01.jpg)
+![](http://dubu.github.io/cdn/stl/docso/docso01.jpg)
 
-![](/img/blender/docso03.jpg)
+![](http://dubu.github.io/cdn/stl/docso/docso03.jpg)
 
-<script src="https://embed.github.com/view/3d/makeduck/makeduck.github.io/master/img/blender/terrain_docso.stl"></script>
+<iframe height='420' width='620' frameborder='0' src='https://render.githubusercontent.com/view/3d?url=https://raw.githubusercontent.com/dubu/cdn/gh-pages/stl/docso/terrain_docso.stl' title='terrain_docso.stl'></iframe>
 
-<iframe height='420' width='620' frameborder='0' src='https://render.githubusercontent.com/view/3d?url=https://raw.githubusercontent.com/makeduck/makeduck.github.io/master/img/blender/terrain_docso.stl' title='terrain_docso.stl'></iframe>
+![](http://dubu.github.io/cdn/stl/pangyo/pangyo.png)
+
+![](http://dubu.github.io/cdn/stl/pangyo/pangyo2.png)
+
+<iframe height='420' width='620' frameborder='0' src='https://render.githubusercontent.com/view/3d?url=https://raw.githubusercontent.com/dubu/cdn/gh-pages/stl/pangyo/pangyo.stl' title='pangyo.stl'></iframe>
+
