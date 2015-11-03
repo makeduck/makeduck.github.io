@@ -18,7 +18,7 @@ docker run -it ubuntu bash
 
 docker diff [컨테이너아이디]
 
-docker commit [컨테이너아이디]  ubuntu
+docker commit [컨테이너아이디]  centos:django
 
 docker rmi -f [이미지아이디]
 
@@ -39,3 +39,32 @@ docker run --name dubu-app --link dubu-mysql:mysql -d mysql:5.7
 
 msyql client
 docker run -it --link dubu-mysql:mysql --rm mysql:5.7 sh -c 'exec mysql -h0c3a06b0115b -P3306 -uroot -pdubu'
+
+
+도커 centos + mysql 연동
+
+
+
+docker pull centos
+docker tag centos centos:django
+
+cat /etc/redhat-release
+
+docker run -it centos:django
+
+cat /etc/redhat-release
+
+$  yum install http://dl.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-7-2.noarch.rpm
+$  yum install python-pip python-devel gcc
+
+pip 가 설치 안됨
+
+curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py"
+python get-pip.py
+
+ yum install mysql mysql-devel
+  pip install django MySQL-python
+
+$ sudo yum install mysql mysql-devel
+$ sudo pip install django MySQL-python
+
