@@ -28,3 +28,14 @@ docker tag [이미지아이디] [저장소:태그]
 docker push  [저장소:태그]
 
 ```
+
+## 사용 예
+
+mysql
+docker run --name dubu-mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=dubu  -d mysql:5.7
+
+link
+docker run --name dubu-app --link dubu-mysql:mysql -d mysql:5.7
+
+msyql client
+docker run -it --link dubu-mysql:mysql --rm mysql:5.7 sh -c 'exec mysql -h0c3a06b0115b -P3306 -uroot -pdubu'
