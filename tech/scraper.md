@@ -60,8 +60,9 @@ Help tags are generated automatically, so you should be good to go.
 - vim python ver 확인  :python import sys; print(sys.version)
 - import module 못찾을 때 path 추가 vim  : python import sys; sys.path.append('/home/ec2-user/anaconda/lib/python2.7/site-packages')
 - 모듈설명 찾아 볼때 :Pyimport Flask     , :Pyimport numpy.sort
-
+- letter 은 보톰   \ 이다
 
 # NERDTree
 - tmux 아래에서 F2 키 실행 아니됨 ;
 - vim :NERDTree 로 직접 띄우자
+

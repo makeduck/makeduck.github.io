@@ -1,7 +1,17 @@
+
+
+sudo yum install -y docker
+sudo groupadd docker
+sudo usermod -aG docker deploy
+sudo service docker start
+
+
+
 ## 설치
 boot2docker vs dockertoolbox
 도커도 진행형. 리눅스에서는 바로 설치가능. 윈도우나iox vm별도 설치필요.. boot2docker 많이 쓴듯하나 150812 dockertoolbox 나옴. 요거 쓰는게 권장같음. https://blog.docker.com/2015/08/docker-toolbox/
 요기 순서대로 설치 http://docs.docker.com/mac/step_one/
+
 
 
 ## 주요명령어
@@ -14,6 +24,9 @@ docker ps
 
 docker run -it ubuntu bash
 
+docker run -it image
+docker exec -it instance bash
+
 파일생성&저장
 
 docker diff [컨테이너아이디]
@@ -22,6 +35,8 @@ docker commit [컨테이너아이디]  centos:django
 
 docker rmi -f [이미지아이디]
 
+docker rm $(docker ps -a -q)
+
 docker tag [이미지아이디] [저장소:태그]
 
 
@@ -29,21 +44,33 @@ docker push  [저장소:태그]
 
 ```
 
-## 사용 예
+## mysql
 
 mysql
 docker run --name dubu-mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=dubu  -d mysql:5.7
+
+
+docker run --name dubu-mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=dubu -e MYSQL_CHARSET=utf8 -d mysql:5.7
+
 
 link
 docker run --name dubu-app --link dubu-mysql:mysql -d mysql:5.7
 
 msyql client
-docker run -it --link dubu-mysql:mysql --rm mysql:5.7 sh -c 'exec mysql -h0c3a06b0115b -P3306 -uroot -pdubu'
+docker run -it --link dubu-mysql:mysql --rm mysql:5.7 sh -c 'exec mysql -h192.168.99.100 -P3306 -uroot -p'
+
+
+
+docker run --name dubu-mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=dubu  -d idock.f.io/rigel/mysql:latest
+
+docker run -it --link dubu-mysql:mysql --rm dockerurl/rigel/mysql:latest sh -c 'exec mysql -h172.18.0.1 -P3306 -uroot -p'
+
+docker run -it --link rm docker:run do
 
 
 도커 centos + mysql 연동
 
-service 가 없을때
+service 가 없을때ƒf
 
 sudo yum install iperf3
 
@@ -65,16 +92,13 @@ cat /etc/redhat-release
 centos7 에서 부터 시작하자
 
 
-$  sudo yum install http://dl.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-7-2.noarch.rpm
+$  sudo yum install http://dl.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-7-5.noarch.rpm
 $  sudo yum install python-pip python-devel gcc
 
 pip 가 설치 안됨
 
 curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py"
 python get-pip.py
-
- yum install mysql mysql-devel
-  pip install django MySQL-python
 
 $ sudo yum install mysql mysql-devel
 $ sudo pip install django MySQL-python
@@ -200,8 +224,9 @@ Dockerfile
 ```
 FROM centos:centos7
 
-RUN yum install -y http://dl.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-7-2.noarch.rpm
+RUN yum install -y http://dl.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-7-5.noarch.rpm
 RUN yum install -y python-pip python-devel nginx gcc
+RUN yum install -y msyql-client
 
 RUN echo "daemon off;" >> /etc/nginx/nginx.conf
 ADD exampleapp.conf /etc/nginx/conf.d/exampleapp.conf
@@ -250,7 +275,43 @@ server {
 }
 ```
 
-entry point 도 만
+entrypoint.sh 도 생성
+
+```
+#!/bin/bash
+
+gunicorn exampleapp.wsgi -b unix:/tmp/gunicorn.sock -D
+nginx
+```
+
+
+위와 같이 떠 있다고 가정
+docker run -it --link dubu-mysql:mysql --rm mysql:5.7 sh -c 'exec mysql -h192.168.99.100 -P3306 -uroot -pdubu'
+
+osx brew 업데이
+
+
+brew update
+brew doctor
+brew upgrade
+
+
+mysql 실행
+~$ export MYSQL_HOST=$( docker inspect -f "{{ .NetworkSettings.IPAddress }}" dubu-mysql)
+~$ export DB_ENV_MYSQL_ROOT_PASSWORD=dubu
+~$ mysql -h $MYSQL_HOST -uroot -p$DB_ENV_MYSQLROOT_PASSWORD -e "create database exampleapp"
+~$ cd
+~$ cd exampleapp
+~/exampleapp$ ./manage.py syncdb
+
+
+export MYSQL_HOST="172.17.0.52"
+export DB_ENV_MYSQL_ROOT_PASSWORD=dubu
+
+docker run -it -p 8088:80 django
+
+
+
 
 이미지 생
 docker build --tag django .
@@ -261,9 +322,58 @@ yum install docker
 
 sudo service docker start   // 도커안에서 서비스 실행은 안된다
 
-~/exampleapp$ sudo docker build --tag django .
+~/exampleapp$ sudo docker bui∞55ld --tag django .
 
 dockeer 안에서 docker 실행
 
 
 git clone https://github.com/pyrasis/dind.git
+
+
+docker run -d --name example-django3 --link dubu-mysql:mysql -p 8088:80 django:0.3
+
+docker run -it --name example-django2 --link dubu-mysql:mysql -p 8088:8088 django:0.2 -e MYSQL_HOST=$( docker inspect -f "{{ .NetworkSettings.IPAddress }}" dubu-mysql) -e DB_ENV_MYSQL_ROOT_PASSWORD=dubu
+
+
+docker run -it --name example-django2 --link dubu-mysql:mysql -p 8088:8088 -e MYSQL_HOST=$( docker inspect -f "{{ .NetworkSettings.IPAddress }}" dubu-mysql) -e DB_ENV_MYSQL_ROOT_PASSWORD=dubu django:0.2  bash
+
+docker run -d --name example-django2 --link dubu-mysql:mysql -p 8088:8088 -e MYSQL_HOST=$( docker inspect -f "{{ .NetworkSettings.IPAddress }}" dubu-mysql) -e DB_ENV_MYSQL_ROOT_PASSWORD=dubu django:0.2.1
+
+
+
+docker run -d --name dangdo_none --link dubu-mysql:mysql -p 8088:80 django:n
+
+
+docker run -it --name django_none --link dubu-mysql:mysql -p 8088:8088 django:n -e MYSQL_HOST=$( docker inspect -f "{{ .NetworkSettings.IPAddress }}" dubu-mysql) -e DB_ENV_MYSQL_ROOT_PASSWORD=dubu
+
+docker run -it --name django_none --link dubu-mysql:mysql -p 8088:8088 -e MYSQL_HOST=$( docker inspect -f "{{ .NetworkSettings.IPAddress }}" dubu-mysql) -e DB_ENV_MYSQL_ROOT_PASSWORD=dubu django:n
+
+
+docker run -d --name dangdo_run --link dubu-mysql:mysql -p 80:8088 -e MYSQL_HOST=$( docker inspect -f "{{ .NetworkSettings.IPAddress }}" dubu-mysql) -e DB_ENV_MYSQL_ROOT_PASSWORD=dubu django:run
+
+
+docker exec -it  b501fc267330 sh -c 'exec /root/endpoint.sh'
+
+docker run -d idock.dd.io/rigel/nginx-tomcat:0.2 sh -c 'exec /root/endpoint.sh'
+
+docker run -it --name web -p 80:80 idock.dd.io/rigel/nginx-tomcat:0.2 sh -c 'exec /root/endpoint.sh'
+
+복사ㅜ
+docker cp 65ae6xxxxxz:/home/nobody/tomcat/apache-tomcat-8.0.28/webapps/ROOT.jar aaaa.war
+
+docker ROOT.war  web:/home/nobody/tomcat/apache-tomcat-8.0.28/webapps
+
+
+
+오라클 설치 참고
+기본 swqp 이 작어서 docker-engine swap 크기를 늘려줘야 설치됨
+https://github.com/madhead/docker-oracle-xe
+
+
+docker run -p 6080:6080 -v `pwd`/workspaceSrc:/home/ros/workspace/src -t -i osblinnikov/rosdocker
+docker run -it --rm -p 6080:80 ikeyasu/ubuntu-vnc-ros:kinetic
+
+source /opt/ros/kinetic/setup.bash
+
+
+ docker rm $(docker ps -a -q)

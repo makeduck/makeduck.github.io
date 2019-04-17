@@ -11,3 +11,15 @@
 - 경량화 framework. jvm
 - https://ppassa.wordpress.com/2012/05/23/scala_for_java_programmer/
 
+
+
+brew insall sbt
+
+sbt?
+
+package,build, setup ..
+
+
+
+
+

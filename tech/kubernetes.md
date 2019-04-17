@@ -1,0 +1,13 @@
+- kibectl login
+- kibectl sc
+- kubectl cluster-info
+- kubectl get pod
+- kubectl get node
+- kubectl dashboard
+- kubectl create -f k8s-deployment.yaml
+- kubectl delete -f k8s-deployment.yaml
+- kubectl get pod
+- kubectl get pod -w
+- kubectl get po -o wide
+- kubectl port-forward demo-deploy-5694ffd7d9-hp6kd  8000:8000
+- kubectl create -f k8s.yaml

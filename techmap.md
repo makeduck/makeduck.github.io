@@ -15,11 +15,20 @@
   * [erdbbmodeling](tech/db-modeling.md) [vim](tech/vim.md) [tmux](tech/tmux.md) [sourcetree](tech/sourcetree.md)
   * [bbi](tech/bbi.md)  [android](tech/android.md)  [pythonrequests](tech/pythonrequests.md) [gradle.md](tech/gradle.md)
   * [codeGen](tech/codeGen.md) [underscore](tech/underscore.md)
-  * [docker](tech/docker.md) [heightmap](tech/heightmap.md)
+  * [docker](tech/docker.md) [heightmap](tech/heightmap.md) [cloudsc](tech/cloudsc.md)
+  * [jpa](tech/jpa.md) [short_key](tech/short_key.md) [ros](tech/ros.md) [perl](tech/perl.md)
+  * [nginx](tech/nginx.md) [rhc](tech/rhc.md) [jmeter](tech/jmeter.md)
+  * [vaadin](tech/vaadin.md) [ansible](tech/ansible.md) [keras](tech/keras.md)
+  * [clojure](tech/clojure.md) [angularjs](tech/angularjs)
+  * [cloud](tech/cloud.md) [spring](tech/spring.md) [rest](tech/rest.md)
+  * [nashorn](tech/nashorn.md) [gitbook](tech/gitbook.md)
+  * [react-native](tech/react-native.md) [clojure.md](tech/clojure.md) [monkeyrunner](tech/monkeyrunner.md)
+
 
 ## map
   * [account](sub/account.md) [decoolLego](sub/decoolLego.md) [potal](sub/potal.md)
-  * [cloth](cloth.md)  [origami](sub/origami.md)
+  * [cloth](cloth.md) [origami](sub/origami.md)
 
 ## doc
  * [stock2015](python/stock2015.py)
+ * [project](tech/project.md)

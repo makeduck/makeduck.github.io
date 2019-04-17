@@ -48,3 +48,53 @@ cursor = mysql.connect().cursor()
     cursor.execute("SELECT * from scrapy_football_player")
 
 ```
+
+
+virtural env
+------------------
+
+http://docs.python-guide.org/en/latest/dev/virtualenvs/
+시작
+virtualenv -p /usr/bin/python2.7 aa
+source aa/bin/activate
+deactivate
+
+conda package 로 설치시
+conda create -n conda2 python=2.7 anaconda
+source activate conda2
+
+각종설치
+conda install -c anaconda bcolz=1.1.2
+conda install theano pygpu
+conda install -c conda-forge keras=2.0.2
+
+
+pygame
+conda create -n pygame python=2.6 anaconda
+http://www.pygame.org/wiki/GettingStarted#Pygame%20Installation
+
+
+py depplearing
+conda create -n pylearning python=2.7 anaconda
+http://www.pygame.org/wiki/GettingStarted#Pygame%20Installation
+
+
+simple server
+--------------------
+python
+
+
+ipython
+ -------------------
+
+%recall number
+%rep 3  //edit 3
+exec _i3
+
+
+피이썬으 시작 ipython 이 낳더라
+ipyton
+from + tab  엄청 많다
+from collections import Counter
+help(Counter)
+dir(Counter)

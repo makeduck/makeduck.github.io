@@ -37,6 +37,10 @@ http://damool8.tistory.com/1506
 
 http://blog.saltfactory.net/63
 
+http://blog.naver.com/PostView.nhn?blogId=joycestudy&logNo=100099704738
+
+구글앱엔진 대략 과금 대략 1일 방문자 6천명 까지는 무료. 월 500백만 pv까지 무료
+
 
 
 appinventor tiny webdb

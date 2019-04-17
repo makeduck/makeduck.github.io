@@ -52,6 +52,10 @@ git remote add upsteam https://github.com/mit-cml/appinventor-sources.git
 
 git remote -v
 
+upstream 변경
+git branch master -u origin/master
+
+
 ## sync upsteam 
 https://help.github.com/articles/syncing-a-fork/
 
@@ -84,10 +88,53 @@ git branch -vv   // trackin 연결 정보까지 조회
 trackin 정보 변경
 git branch -u upstream/master master
 
+commit 취소  이하 3개 취소
+git reset --hard HEAD~3
+
+reset 옵션
+hard > mixed > soft
+soft: head 만 변경 , mixed: index 도 변경 git add 취소 , hard: 파일내용까지 변경
+
+
+rebase 정렬
+git rebase master
+checkout master
+git merge branchtag
+
+remote 삭제
+git branch -d -r origin/pull_request
+
+git config user.name "kozazz"
+git config user.email "kozazz@hanmail.net"
+
+매번 로그인 하기 싫으니 캐시 설정함
+git config --global credential.helper cache
+
+
+git commit --amend --author "kozazz <kozazz@hanmail.net>"
+
+
+git merge --abort
+
+git clean -f -d
+
+git reflog
+
+upstream 변경 설정
+git push -f --set-upstream rhc master
+
+untracted file remove
+git clean -i
+
+reset 롤백
+git reset --hard ORIG_HEAD
+
+// upsteam 변경 
+git branch -u upstream/master
 
 
 참고
----------
+----------
 
 - [](https://www.youtube.com/watch?v=qKoUeXymsgk)
 - [git자료](https://github.com/kenu/ssag-git)

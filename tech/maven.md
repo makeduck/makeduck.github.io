@@ -12,3 +12,11 @@
 모듈은 별도로 분리하되. core.jar 파일을 dependence로 걸지 말자.
 maven build 시 필요 모듈만 선별 패키징을 하자.
 
+메이븐 직접 등록
+다운 받는 부문에서 2번째 try 할때 부터 잘 받음 ;
+직접 로컬에 등록
+
+> Could not download jruby-stdlib.jar (org.jruby:jruby-stdlib:1.7.23)
+https://repo.spring.io/libs-release/org/jruby/jruby-stdlib/1.7.23/jruby-stdlib-1.7.23.jar
+
+mvn install:install-file -Dfile=jruby-stdlib-1.7.23.jar -DgroupId=org.jruby -DartifactId=jruby-stdlib -Dversion=1.7.23 -Dpackaging=jar

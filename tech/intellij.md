@@ -21,3 +21,19 @@ remote debuging
 server tab 은 무난하게 변경 www.주소.com  포트 80
 startup/connection tab. Debug 선택. socket . port 8000
 
+
+### intellij 14 설정
+mac 기준
+Applications > IntelliJ IDEA 14 > Contents > bin  idea.vmoptions
+
+```
+-Xms512m
+-Xmx1024m
+-XX:MaxPermSize=350m
+-XX:ReservedCodeCacheSize=225m
+-XX:+UseCompressedOops
+```
+
+### code complate
+html 에서
+div.dubu>div.mandu  표현식 다음에 tab

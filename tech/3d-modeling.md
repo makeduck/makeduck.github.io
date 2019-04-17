@@ -46,3 +46,25 @@ preview -> down -> stop
 pla 설정값 샷
 ![](/img/3dset01.jpg)
 ![](/img/3dset02.jpg)
+
+
+# 후가공
+160819 홍성교 강사
+120 - 220 - 400 -600 방 순으로 사포질
+폴리퍼티  경화제 10% 비율로 섞음 /레드퍼티 가는거
+
+서페이서 갈색 사비락카 /프라이머
+후 결이 보이면 400방, 아니면 고은 600방
+
+도색 흰색바탕 | 검은색  채도를 맞추고 색을 입힘
+
+흰색 XF-2 바르는 흭색
+검은색 x-1 [타미야에나멜]X-1 BLACK 블랙 [유광] 2000원
+뿌리는 흰색 mrhobby mr color spray
+
+코팅제 투명락카 2000원
+
+
+http://item2.gmarket.co.kr/Item/DetailView/Item.aspx?goodscode=693868963
+
+
